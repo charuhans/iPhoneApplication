@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A666594E14705F5700B20EBB /* FishBankCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A666594B14705F5700B20EBB /* FishBankCellViewController.m */; };
+		A666594F14705F5700B20EBB /* FishBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A666594D14705F5700B20EBB /* FishBankViewController.m */; };
+		A66659551470636C00B20EBB /* FishTankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A66659541470636C00B20EBB /* FishTankModel.m */; };
+		A6665958147073BD00B20EBB /* SimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6665957147073BD00B20EBB /* SimulationViewController.m */; };
+		A66659B21470760B00B20EBB /* screen11.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659971470760B00B20EBB /* screen11.png */; };
+		A66659B31470760B00B20EBB /* screen12.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659981470760B00B20EBB /* screen12.png */; };
+		A66659B51470760B00B20EBB /* screen21.png in Resources */ = {isa = PBXBuildFile; fileRef = A666599A1470760B00B20EBB /* screen21.png */; };
+		A66659B61470760B00B20EBB /* screen22.png in Resources */ = {isa = PBXBuildFile; fileRef = A666599B1470760B00B20EBB /* screen22.png */; };
+		A66659B81470760B00B20EBB /* screen31.png in Resources */ = {isa = PBXBuildFile; fileRef = A666599D1470760B00B20EBB /* screen31.png */; };
+		A66659B91470760B00B20EBB /* screen32.png in Resources */ = {isa = PBXBuildFile; fileRef = A666599E1470760B00B20EBB /* screen32.png */; };
+		A66659BB1470760B00B20EBB /* screen41.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A01470760B00B20EBB /* screen41.png */; };
+		A66659BC1470760B00B20EBB /* screen42.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A11470760B00B20EBB /* screen42.png */; };
+		A66659BE1470760B00B20EBB /* screen51.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A31470760B00B20EBB /* screen51.png */; };
+		A66659BF1470760B00B20EBB /* screen52.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A41470760B00B20EBB /* screen52.png */; };
+		A66659C11470760B00B20EBB /* simBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A61470760B00B20EBB /* simBack1.png */; };
+		A66659C21470760B00B20EBB /* simBack2.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A71470760B00B20EBB /* simBack2.png */; };
+		A66659C31470760B00B20EBB /* simBack3.png in Resources */ = {isa = PBXBuildFile; fileRef = A66659A81470760B00B20EBB /* simBack3.png */; };
+		A66659D01470775300B20EBB /* FishBankCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66659CD1470775300B20EBB /* FishBankCellView.xib */; };
+		A66659D11470775300B20EBB /* FishBankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66659CE1470775300B20EBB /* FishBankViewController.xib */; };
+		A66659D21470775300B20EBB /* SimulationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66659CF1470775300B20EBB /* SimulationViewController.xib */; };
+		A6829857146B978B00AE4675 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A6829856146B978B00AE4675 /* arrow.png */; };
+		A682D6741479D624001BE209 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A682D6731479D624001BE209 /* libxml2.dylib */; };
+		A682D6791479D67D001BE209 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A682D6761479D67D001BE209 /* HTMLNode.m */; };
+		A682D67A1479D67D001BE209 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A682D6781479D67D001BE209 /* HTMLParser.m */; };
+		A682D6871479DE81001BE209 /* WebGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A682D6851479DE81001BE209 /* WebGalleryViewController.m */; };
+		A682D6881479DE81001BE209 /* WebGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A682D6861479DE81001BE209 /* WebGalleryViewController.xib */; };
+		A682D69C1479FA76001BE209 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A682D69B1479FA76001BE209 /* libsqlite3.0.dylib */; };
+		A68511C314777DB100FAE8B2 /* FishDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A68511C214777DB100FAE8B2 /* FishDB.sqlite */; };
+		A68C04301460598E00EC7D22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68C042F1460598E00EC7D22 /* UIKit.framework */; };
+		A68C04321460598E00EC7D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68C04311460598E00EC7D22 /* Foundation.framework */; };
+		A68C04341460598E00EC7D22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68C04331460598E00EC7D22 /* CoreGraphics.framework */; };
+		A68C043A1460598E00EC7D22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68C04381460598E00EC7D22 /* InfoPlist.strings */; };
+		A68C043D1460598E00EC7D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C043C1460598E00EC7D22 /* main.m */; };
+		A68C04431460598E00EC7D22 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C04411460598E00EC7D22 /* MainWindow.xib */; };
+		A68C046114605D2A00EC7D22 /* HW3_NEWTONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C046014605D2A00EC7D22 /* HW3_NEWTONAppDelegate.m */; };
+		A68C046414605D7E00EC7D22 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C046314605D7E00EC7D22 /* MenuViewController.m */; };
+		A68C046614605DCD00EC7D22 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C046514605DCD00EC7D22 /* MenuViewController.xib */; };
+		A68C046914605DF400EC7D22 /* MenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C046714605DF400EC7D22 /* MenuBackground.png */; };
+		A68C04881460648900EC7D22 /* FishStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C04871460648900EC7D22 /* FishStoreViewController.m */; };
+		A68C048A1460649400EC7D22 /* FishStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C04891460649400EC7D22 /* FishStoreViewController.xib */; };
+		A68C048C1460653200EC7D22 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C048B1460653200EC7D22 /* icon.png */; };
+		A68C048E1460661900EC7D22 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C048D1460661900EC7D22 /* icon.png */; };
+		A68C04911460666500EC7D22 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C048F1460666500EC7D22 /* add.png */; };
+		A68C04921460666500EC7D22 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A68C04901460666500EC7D22 /* delete.png */; };
+		A68C0495146066AE00EC7D22 /* FishStoreCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C0494146066AE00EC7D22 /* FishStoreCellViewController.m */; };
+		A68C0497146066B900EC7D22 /* FishStoreCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C0496146066B900EC7D22 /* FishStoreCellView.xib */; };
+		A69372EE14609F0500CBD143 /* fishWebViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = A69372ED14609F0500CBD143 /* fishWebViewContoller.m */; };
+		A69372F014609F0E00CBD143 /* fishWebViewContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69372EF14609F0E00CBD143 /* fishWebViewContoller.xib */; };
+		A69AE00A146CA89600391FBF /* switchBlueBg.png in Resources */ = {isa = PBXBuildFile; fileRef = A69AE007146CA89600391FBF /* switchBlueBg.png */; };
+		A69AE00B146CA89600391FBF /* switchOffPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = A69AE008146CA89600391FBF /* switchOffPlain.png */; };
+		A69AE00C146CA89600391FBF /* switchThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = A69AE009146CA89600391FBF /* switchThumb.png */; };
+		A69AE00F146CA8C000391FBF /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A69AE00E146CA8C000391FBF /* CustomSwitch.m */; };
+		A6C859241468ECB300422B67 /* EditFishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C859231468ECB300422B67 /* EditFishViewController.xib */; };
+		A6C859271468ECBD00422B67 /* EditFishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C859261468ECBD00422B67 /* EditFishViewController.m */; };
+		A6D5C6AE146F940800BCBEE2 /* FishTankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D5C6AD146F940800BCBEE2 /* FishTankInfo.m */; };
+		A6D5C6B1146F952E00BCBEE2 /* FishBankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D5C6B0146F952E00BCBEE2 /* FishBankModel.m */; };
+		A6E23CB4146F5E9D000A3301 /* FishStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E23CB3146F5E9D000A3301 /* FishStoreModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A666594A14705F5700B20EBB /* FishBankCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishBankCellViewController.h; path = ViewContollers/FishBankCellViewController.h; sourceTree = "<group>"; };
+		A666594B14705F5700B20EBB /* FishBankCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishBankCellViewController.m; path = ViewContollers/FishBankCellViewController.m; sourceTree = "<group>"; };
+		A666594C14705F5700B20EBB /* FishBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishBankViewController.h; path = ViewContollers/FishBankViewController.h; sourceTree = "<group>"; };
+		A666594D14705F5700B20EBB /* FishBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishBankViewController.m; path = ViewContollers/FishBankViewController.m; sourceTree = "<group>"; };
+		A66659531470636C00B20EBB /* FishTankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishTankModel.h; path = Model/FishTankModel.h; sourceTree = "<group>"; };
+		A66659541470636C00B20EBB /* FishTankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishTankModel.m; path = Model/FishTankModel.m; sourceTree = "<group>"; };
+		A6665956147073BD00B20EBB /* SimulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimulationViewController.h; path = ViewContollers/SimulationViewController.h; sourceTree = "<group>"; };
+		A6665957147073BD00B20EBB /* SimulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimulationViewController.m; path = ViewContollers/SimulationViewController.m; sourceTree = "<group>"; };
+		A66659971470760B00B20EBB /* screen11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen11.png; path = Images/SimulationImages/screen11.png; sourceTree = "<group>"; };
+		A66659981470760B00B20EBB /* screen12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen12.png; path = Images/SimulationImages/screen12.png; sourceTree = "<group>"; };
+		A666599A1470760B00B20EBB /* screen21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen21.png; path = Images/SimulationImages/screen21.png; sourceTree = "<group>"; };
+		A666599B1470760B00B20EBB /* screen22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen22.png; path = Images/SimulationImages/screen22.png; sourceTree = "<group>"; };
+		A666599D1470760B00B20EBB /* screen31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen31.png; path = Images/SimulationImages/screen31.png; sourceTree = "<group>"; };
+		A666599E1470760B00B20EBB /* screen32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen32.png; path = Images/SimulationImages/screen32.png; sourceTree = "<group>"; };
+		A66659A01470760B00B20EBB /* screen41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen41.png; path = Images/SimulationImages/screen41.png; sourceTree = "<group>"; };
+		A66659A11470760B00B20EBB /* screen42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen42.png; path = Images/SimulationImages/screen42.png; sourceTree = "<group>"; };
+		A66659A31470760B00B20EBB /* screen51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen51.png; path = Images/SimulationImages/screen51.png; sourceTree = "<group>"; };
+		A66659A41470760B00B20EBB /* screen52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen52.png; path = Images/SimulationImages/screen52.png; sourceTree = "<group>"; };
+		A66659A61470760B00B20EBB /* simBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simBack1.png; path = Images/SimulationImages/simBack1.png; sourceTree = "<group>"; };
+		A66659A71470760B00B20EBB /* simBack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simBack2.png; path = Images/SimulationImages/simBack2.png; sourceTree = "<group>"; };
+		A66659A81470760B00B20EBB /* simBack3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simBack3.png; path = Images/SimulationImages/simBack3.png; sourceTree = "<group>"; };
+		A66659CD1470775300B20EBB /* FishBankCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FishBankCellView.xib; path = Views/FishBankCellView.xib; sourceTree = "<group>"; };
+		A66659CE1470775300B20EBB /* FishBankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FishBankViewController.xib; path = Views/FishBankViewController.xib; sourceTree = "<group>"; };
+		A66659CF1470775300B20EBB /* SimulationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimulationViewController.xib; path = Views/SimulationViewController.xib; sourceTree = "<group>"; };
+		A6829856146B978B00AE4675 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = Images/arrow.png; sourceTree = "<group>"; };
+		A682D6731479D624001BE209 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		A682D6751479D67D001BE209 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		A682D6761479D67D001BE209 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		A682D6771479D67D001BE209 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		A682D6781479D67D001BE209 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		A682D6841479DE81001BE209 /* WebGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGalleryViewController.h; sourceTree = "<group>"; };
+		A682D6851479DE81001BE209 /* WebGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGalleryViewController.m; sourceTree = "<group>"; };
+		A682D6861479DE81001BE209 /* WebGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebGalleryViewController.xib; sourceTree = "<group>"; };
+		A682D69B1479FA76001BE209 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A68511C214777DB100FAE8B2 /* FishDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FishDB.sqlite; sourceTree = "<group>"; };
+		A68C042B1460598D00EC7D22 /* HW3_NEWTON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_NEWTON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68C042F1460598E00EC7D22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A68C04311460598E00EC7D22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A68C04331460598E00EC7D22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A68C04371460598E00EC7D22 /* HW3_NEWTON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW3_NEWTON-Info.plist"; sourceTree = "<group>"; };
+		A68C04391460598E00EC7D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A68C043B1460598E00EC7D22 /* HW3_NEWTON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HW3_NEWTON-Prefix.pch"; sourceTree = "<group>"; };
+		A68C043C1460598E00EC7D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A68C04421460598E00EC7D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A68C045F14605D2A00EC7D22 /* HW3_NEWTONAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HW3_NEWTONAppDelegate.h; path = Delegate/HW3_NEWTONAppDelegate.h; sourceTree = "<group>"; };
+		A68C046014605D2A00EC7D22 /* HW3_NEWTONAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HW3_NEWTONAppDelegate.m; path = Delegate/HW3_NEWTONAppDelegate.m; sourceTree = "<group>"; };
+		A68C046214605D7E00EC7D22 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ViewContollers/MenuViewController.h; sourceTree = "<group>"; };
+		A68C046314605D7E00EC7D22 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ViewContollers/MenuViewController.m; sourceTree = "<group>"; };
+		A68C046514605DCD00EC7D22 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Views/MenuViewController.xib; sourceTree = "<group>"; };
+		A68C046714605DF400EC7D22 /* MenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBackground.png; path = Images/MenuBackground.png; sourceTree = "<group>"; };
+		A68C04861460648900EC7D22 /* FishStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishStoreViewController.h; path = ViewContollers/FishStoreViewController.h; sourceTree = "<group>"; };
+		A68C04871460648900EC7D22 /* FishStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishStoreViewController.m; path = ViewContollers/FishStoreViewController.m; sourceTree = "<group>"; };
+		A68C04891460649400EC7D22 /* FishStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FishStoreViewController.xib; path = Views/FishStoreViewController.xib; sourceTree = "<group>"; };
+		A68C048B1460653200EC7D22 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A68C048D1460661900EC7D22 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A68C048F1460666500EC7D22 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = Images/add.png; sourceTree = "<group>"; };
+		A68C04901460666500EC7D22 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = Images/delete.png; sourceTree = "<group>"; };
+		A68C0493146066AE00EC7D22 /* FishStoreCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishStoreCellViewController.h; path = ViewContollers/FishStoreCellViewController.h; sourceTree = "<group>"; };
+		A68C0494146066AE00EC7D22 /* FishStoreCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishStoreCellViewController.m; path = ViewContollers/FishStoreCellViewController.m; sourceTree = "<group>"; };
+		A68C0496146066B900EC7D22 /* FishStoreCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FishStoreCellView.xib; path = Views/FishStoreCellView.xib; sourceTree = "<group>"; };
+		A69372EC14609F0500CBD143 /* fishWebViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fishWebViewContoller.h; path = ViewContollers/fishWebViewContoller.h; sourceTree = "<group>"; };
+		A69372ED14609F0500CBD143 /* fishWebViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fishWebViewContoller.m; path = ViewContollers/fishWebViewContoller.m; sourceTree = "<group>"; };
+		A69372EF14609F0E00CBD143 /* fishWebViewContoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = fishWebViewContoller.xib; path = Views/fishWebViewContoller.xib; sourceTree = "<group>"; };
+		A69AE007146CA89600391FBF /* switchBlueBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switchBlueBg.png; path = Images/switchBlueBg.png; sourceTree = "<group>"; };
+		A69AE008146CA89600391FBF /* switchOffPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switchOffPlain.png; path = Images/switchOffPlain.png; sourceTree = "<group>"; };
+		A69AE009146CA89600391FBF /* switchThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switchThumb.png; path = Images/switchThumb.png; sourceTree = "<group>"; };
+		A69AE00D146CA8C000391FBF /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomSwitch.h; path = Classes/CustomSwitch.h; sourceTree = "<group>"; };
+		A69AE00E146CA8C000391FBF /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomSwitch.m; path = Classes/CustomSwitch.m; sourceTree = "<group>"; };
+		A6C859231468ECB300422B67 /* EditFishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditFishViewController.xib; path = Views/EditFishViewController.xib; sourceTree = "<group>"; };
+		A6C859251468ECBD00422B67 /* EditFishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditFishViewController.h; path = ViewContollers/EditFishViewController.h; sourceTree = "<group>"; };
+		A6C859261468ECBD00422B67 /* EditFishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditFishViewController.m; path = ViewContollers/EditFishViewController.m; sourceTree = "<group>"; };
+		A6D5C6AC146F940800BCBEE2 /* FishTankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishTankInfo.h; path = Model/FishTankInfo.h; sourceTree = "<group>"; };
+		A6D5C6AD146F940800BCBEE2 /* FishTankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishTankInfo.m; path = Model/FishTankInfo.m; sourceTree = "<group>"; };
+		A6D5C6AF146F952E00BCBEE2 /* FishBankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishBankModel.h; path = Model/FishBankModel.h; sourceTree = "<group>"; };
+		A6D5C6B0146F952E00BCBEE2 /* FishBankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishBankModel.m; path = Model/FishBankModel.m; sourceTree = "<group>"; };
+		A6E23CB2146F5E9D000A3301 /* FishStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FishStoreModel.h; path = Model/FishStoreModel.h; sourceTree = "<group>"; };
+		A6E23CB3146F5E9D000A3301 /* FishStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FishStoreModel.m; path = Model/FishStoreModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68C04281460598D00EC7D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A682D69C1479FA76001BE209 /* libsqlite3.0.dylib in Frameworks */,
+				A68C04301460598E00EC7D22 /* UIKit.framework in Frameworks */,
+				A68C04321460598E00EC7D22 /* Foundation.framework in Frameworks */,
+				A68C04341460598E00EC7D22 /* CoreGraphics.framework in Frameworks */,
+				A682D6741479D624001BE209 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A68C04201460598D00EC7D22 = {
+			isa = PBXGroup;
+			children = (
+				A682D69B1479FA76001BE209 /* libsqlite3.0.dylib */,
+				A68C048D1460661900EC7D22 /* icon.png */,
+				A68C04351460598E00EC7D22 /* HW3_NEWTON */,
+				A68C042E1460598D00EC7D22 /* Frameworks */,
+				A68C042C1460598D00EC7D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68C042C1460598D00EC7D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68C042B1460598D00EC7D22 /* HW3_NEWTON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68C042E1460598D00EC7D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A682D6731479D624001BE209 /* libxml2.dylib */,
+				A68C042F1460598E00EC7D22 /* UIKit.framework */,
+				A68C04311460598E00EC7D22 /* Foundation.framework */,
+				A68C04331460598E00EC7D22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A68C04351460598E00EC7D22 /* HW3_NEWTON */ = {
+			isa = PBXGroup;
+			children = (
+				A6E23C85146F4E59000A3301 /* Model */,
+				A6E23C82146F4B33000A3301 /* Resources */,
+				A68C044D14605A5B00EC7D22 /* ViewControllers */,
+				A68C044C14605A4900EC7D22 /* Images */,
+				A68C044B14605A3E00EC7D22 /* Classes */,
+				A68C044A14605A2B00EC7D22 /* Views */,
+				A68C044914605A1600EC7D22 /* Delegate */,
+				A68C04361460598E00EC7D22 /* Supporting Files */,
+			);
+			path = HW3_NEWTON;
+			sourceTree = "<group>";
+		};
+		A68C04361460598E00EC7D22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A68C04371460598E00EC7D22 /* HW3_NEWTON-Info.plist */,
+				A68C04381460598E00EC7D22 /* InfoPlist.strings */,
+				A68C043B1460598E00EC7D22 /* HW3_NEWTON-Prefix.pch */,
+				A68C043C1460598E00EC7D22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A68C044914605A1600EC7D22 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A68C045F14605D2A00EC7D22 /* HW3_NEWTONAppDelegate.h */,
+				A68C046014605D2A00EC7D22 /* HW3_NEWTONAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A68C044A14605A2B00EC7D22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A682D6861479DE81001BE209 /* WebGalleryViewController.xib */,
+				A66659CD1470775300B20EBB /* FishBankCellView.xib */,
+				A66659CE1470775300B20EBB /* FishBankViewController.xib */,
+				A66659CF1470775300B20EBB /* SimulationViewController.xib */,
+				A6C859231468ECB300422B67 /* EditFishViewController.xib */,
+				A69372EF14609F0E00CBD143 /* fishWebViewContoller.xib */,
+				A68C0496146066B900EC7D22 /* FishStoreCellView.xib */,
+				A68C04891460649400EC7D22 /* FishStoreViewController.xib */,
+				A68C046514605DCD00EC7D22 /* MenuViewController.xib */,
+				A68C04411460598E00EC7D22 /* MainWindow.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A68C044B14605A3E00EC7D22 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A682D6751479D67D001BE209 /* HTMLNode.h */,
+				A682D6761479D67D001BE209 /* HTMLNode.m */,
+				A682D6771479D67D001BE209 /* HTMLParser.h */,
+				A682D6781479D67D001BE209 /* HTMLParser.m */,
+				A6D5C6AC146F940800BCBEE2 /* FishTankInfo.h */,
+				A6D5C6AD146F940800BCBEE2 /* FishTankInfo.m */,
+				A69AE00D146CA8C000391FBF /* CustomSwitch.h */,
+				A69AE00E146CA8C000391FBF /* CustomSwitch.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A68C044C14605A4900EC7D22 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A66659971470760B00B20EBB /* screen11.png */,
+				A66659981470760B00B20EBB /* screen12.png */,
+				A666599A1470760B00B20EBB /* screen21.png */,
+				A666599B1470760B00B20EBB /* screen22.png */,
+				A666599D1470760B00B20EBB /* screen31.png */,
+				A666599E1470760B00B20EBB /* screen32.png */,
+				A66659A01470760B00B20EBB /* screen41.png */,
+				A66659A11470760B00B20EBB /* screen42.png */,
+				A66659A31470760B00B20EBB /* screen51.png */,
+				A66659A41470760B00B20EBB /* screen52.png */,
+				A66659A61470760B00B20EBB /* simBack1.png */,
+				A66659A71470760B00B20EBB /* simBack2.png */,
+				A66659A81470760B00B20EBB /* simBack3.png */,
+				A69AE007146CA89600391FBF /* switchBlueBg.png */,
+				A69AE008146CA89600391FBF /* switchOffPlain.png */,
+				A69AE009146CA89600391FBF /* switchThumb.png */,
+				A6829856146B978B00AE4675 /* arrow.png */,
+				A68C048F1460666500EC7D22 /* add.png */,
+				A68C04901460666500EC7D22 /* delete.png */,
+				A68C048B1460653200EC7D22 /* icon.png */,
+				A68C046714605DF400EC7D22 /* MenuBackground.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A68C044D14605A5B00EC7D22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6665956147073BD00B20EBB /* SimulationViewController.h */,
+				A6665957147073BD00B20EBB /* SimulationViewController.m */,
+				A666594A14705F5700B20EBB /* FishBankCellViewController.h */,
+				A666594B14705F5700B20EBB /* FishBankCellViewController.m */,
+				A666594C14705F5700B20EBB /* FishBankViewController.h */,
+				A666594D14705F5700B20EBB /* FishBankViewController.m */,
+				A6C859251468ECBD00422B67 /* EditFishViewController.h */,
+				A6C859261468ECBD00422B67 /* EditFishViewController.m */,
+				A69372EC14609F0500CBD143 /* fishWebViewContoller.h */,
+				A69372ED14609F0500CBD143 /* fishWebViewContoller.m */,
+				A68C0493146066AE00EC7D22 /* FishStoreCellViewController.h */,
+				A68C0494146066AE00EC7D22 /* FishStoreCellViewController.m */,
+				A68C04861460648900EC7D22 /* FishStoreViewController.h */,
+				A68C04871460648900EC7D22 /* FishStoreViewController.m */,
+				A68C046214605D7E00EC7D22 /* MenuViewController.h */,
+				A68C046314605D7E00EC7D22 /* MenuViewController.m */,
+				A682D6841479DE81001BE209 /* WebGalleryViewController.h */,
+				A682D6851479DE81001BE209 /* WebGalleryViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A6E23C82146F4B33000A3301 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A68511C214777DB100FAE8B2 /* FishDB.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6E23C85146F4E59000A3301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A66659531470636C00B20EBB /* FishTankModel.h */,
+				A66659541470636C00B20EBB /* FishTankModel.m */,
+				A6D5C6AF146F952E00BCBEE2 /* FishBankModel.h */,
+				A6D5C6B0146F952E00BCBEE2 /* FishBankModel.m */,
+				A6E23CB2146F5E9D000A3301 /* FishStoreModel.h */,
+				A6E23CB3146F5E9D000A3301 /* FishStoreModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68C042A1460598D00EC7D22 /* HW3_NEWTON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68C04461460598E00EC7D22 /* Build configuration list for PBXNativeTarget "HW3_NEWTON" */;
+			buildPhases = (
+				A68C04271460598D00EC7D22 /* Sources */,
+				A68C04281460598D00EC7D22 /* Frameworks */,
+				A68C04291460598D00EC7D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW3_NEWTON;
+			productName = HW3_NEWTON;
+			productReference = A68C042B1460598D00EC7D22 /* HW3_NEWTON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68C04221460598D00EC7D22 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A68C04251460598D00EC7D22 /* Build configuration list for PBXProject "HW3_NEWTON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A68C04201460598D00EC7D22;
+			productRefGroup = A68C042C1460598D00EC7D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68C042A1460598D00EC7D22 /* HW3_NEWTON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68C04291460598D00EC7D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68C043A1460598E00EC7D22 /* InfoPlist.strings in Resources */,
+				A68C04431460598E00EC7D22 /* MainWindow.xib in Resources */,
+				A68C046614605DCD00EC7D22 /* MenuViewController.xib in Resources */,
+				A68C046914605DF400EC7D22 /* MenuBackground.png in Resources */,
+				A68C048A1460649400EC7D22 /* FishStoreViewController.xib in Resources */,
+				A68C048C1460653200EC7D22 /* icon.png in Resources */,
+				A68C048E1460661900EC7D22 /* icon.png in Resources */,
+				A68C04911460666500EC7D22 /* add.png in Resources */,
+				A68C04921460666500EC7D22 /* delete.png in Resources */,
+				A68C0497146066B900EC7D22 /* FishStoreCellView.xib in Resources */,
+				A69372F014609F0E00CBD143 /* fishWebViewContoller.xib in Resources */,
+				A6C859241468ECB300422B67 /* EditFishViewController.xib in Resources */,
+				A6829857146B978B00AE4675 /* arrow.png in Resources */,
+				A69AE00A146CA89600391FBF /* switchBlueBg.png in Resources */,
+				A69AE00B146CA89600391FBF /* switchOffPlain.png in Resources */,
+				A69AE00C146CA89600391FBF /* switchThumb.png in Resources */,
+				A66659B21470760B00B20EBB /* screen11.png in Resources */,
+				A66659B31470760B00B20EBB /* screen12.png in Resources */,
+				A66659B51470760B00B20EBB /* screen21.png in Resources */,
+				A66659B61470760B00B20EBB /* screen22.png in Resources */,
+				A66659B81470760B00B20EBB /* screen31.png in Resources */,
+				A66659B91470760B00B20EBB /* screen32.png in Resources */,
+				A66659BB1470760B00B20EBB /* screen41.png in Resources */,
+				A66659BC1470760B00B20EBB /* screen42.png in Resources */,
+				A66659BE1470760B00B20EBB /* screen51.png in Resources */,
+				A66659BF1470760B00B20EBB /* screen52.png in Resources */,
+				A66659C11470760B00B20EBB /* simBack1.png in Resources */,
+				A66659C21470760B00B20EBB /* simBack2.png in Resources */,
+				A66659C31470760B00B20EBB /* simBack3.png in Resources */,
+				A66659D01470775300B20EBB /* FishBankCellView.xib in Resources */,
+				A66659D11470775300B20EBB /* FishBankViewController.xib in Resources */,
+				A66659D21470775300B20EBB /* SimulationViewController.xib in Resources */,
+				A68511C314777DB100FAE8B2 /* FishDB.sqlite in Resources */,
+				A682D6881479DE81001BE209 /* WebGalleryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68C04271460598D00EC7D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68C043D1460598E00EC7D22 /* main.m in Sources */,
+				A68C046114605D2A00EC7D22 /* HW3_NEWTONAppDelegate.m in Sources */,
+				A68C046414605D7E00EC7D22 /* MenuViewController.m in Sources */,
+				A68C04881460648900EC7D22 /* FishStoreViewController.m in Sources */,
+				A68C0495146066AE00EC7D22 /* FishStoreCellViewController.m in Sources */,
+				A69372EE14609F0500CBD143 /* fishWebViewContoller.m in Sources */,
+				A6C859271468ECBD00422B67 /* EditFishViewController.m in Sources */,
+				A69AE00F146CA8C000391FBF /* CustomSwitch.m in Sources */,
+				A6E23CB4146F5E9D000A3301 /* FishStoreModel.m in Sources */,
+				A6D5C6AE146F940800BCBEE2 /* FishTankInfo.m in Sources */,
+				A6D5C6B1146F952E00BCBEE2 /* FishBankModel.m in Sources */,
+				A666594E14705F5700B20EBB /* FishBankCellViewController.m in Sources */,
+				A666594F14705F5700B20EBB /* FishBankViewController.m in Sources */,
+				A66659551470636C00B20EBB /* FishTankModel.m in Sources */,
+				A6665958147073BD00B20EBB /* SimulationViewController.m in Sources */,
+				A682D6791479D67D001BE209 /* HTMLNode.m in Sources */,
+				A682D67A1479D67D001BE209 /* HTMLParser.m in Sources */,
+				A682D6871479DE81001BE209 /* WebGalleryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A68C04381460598E00EC7D22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68C04391460598E00EC7D22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A68C04411460598E00EC7D22 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68C04421460598E00EC7D22 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A68C04441460598E00EC7D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A68C04451460598E00EC7D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A68C04471460598E00EC7D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW3_NEWTON/HW3_NEWTON-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "HW3_NEWTON/HW3_NEWTON-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A68C04481460598E00EC7D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW3_NEWTON/HW3_NEWTON-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "HW3_NEWTON/HW3_NEWTON-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68C04251460598D00EC7D22 /* Build configuration list for PBXProject "HW3_NEWTON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68C04441460598E00EC7D22 /* Debug */,
+				A68C04451460598E00EC7D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68C04461460598E00EC7D22 /* Build configuration list for PBXNativeTarget "HW3_NEWTON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68C04471460598E00EC7D22 /* Debug */,
+				A68C04481460598E00EC7D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A68C04221460598D00EC7D22 /* Project object */;
+}

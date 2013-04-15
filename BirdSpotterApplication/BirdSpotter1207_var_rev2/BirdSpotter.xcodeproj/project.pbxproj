@@ -1,0 +1,1347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6199A9D1482DD3700CAB750 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6199A9B1482DD3700CAB750 /* CameraViewController.m */; };
+		A6199A9E1482DD3700CAB750 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6199A9C1482DD3700CAB750 /* CameraViewController.xib */; };
+		A62A689F148D941900C22C67 /* american_vulture2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A62A689E148D941900C22C67 /* american_vulture2_full.png */; };
+		A659C1F4148F065A00ED3896 /* backbutton_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1F2148F065A00ED3896 /* backbutton_active.png */; };
+		A659C1F5148F065A00ED3896 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1F3148F065A00ED3896 /* backbutton.png */; };
+		A659C1F9148F131700ED3896 /* new_gallery_topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1F8148F131700ED3896 /* new_gallery_topbar.png */; };
+		A659C204148F147D00ED3896 /* tb_birdbook_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1FA148F147A00ED3896 /* tb_birdbook_button_active.png */; };
+		A659C205148F147D00ED3896 /* tb_birdbook_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1FB148F147B00ED3896 /* tb_birdbook_button.png */; };
+		A659C206148F147D00ED3896 /* tb_camera_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1FC148F147B00ED3896 /* tb_camera_button_active.png */; };
+		A659C207148F147D00ED3896 /* tb_camera_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1FD148F147B00ED3896 /* tb_camera_button.png */; };
+		A659C208148F147D00ED3896 /* tb_gallery_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1FE148F147C00ED3896 /* tb_gallery_button_active.png */; };
+		A659C209148F147D00ED3896 /* tb_gallery_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C1FF148F147C00ED3896 /* tb_gallery_button.png */; };
+		A659C20A148F147D00ED3896 /* tb_home_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C200148F147C00ED3896 /* tb_home_button_active.png */; };
+		A659C20B148F147D00ED3896 /* tb_home_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C201148F147C00ED3896 /* tb_home_button.png */; };
+		A659C20C148F147D00ED3896 /* tb_search_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C202148F147C00ED3896 /* tb_search_button_active.png */; };
+		A659C20D148F147D00ED3896 /* tb_search_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C203148F147D00ED3896 /* tb_search_button.png */; };
+		A659C210148F174300ED3896 /* camera_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C20E148F174300ED3896 /* camera_button_active.png */; };
+		A659C211148F174300ED3896 /* camera_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A659C20F148F174300ED3896 /* camera_button.png */; };
+		A66FEF0F1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.m in Sources */ = {isa = PBXBuildFile; fileRef = A66FEF0D1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.m */; };
+		A66FEF101484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66FEF0E1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.xib */; };
+		A6811BC11465CEC500777017 /* MultipleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6811BBF1465CEC500777017 /* MultipleViewController.m */; };
+		A6811BC21465CEC500777017 /* MultipleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6811BC01465CEC500777017 /* MultipleViewController.xib */; };
+		A681B060146750B50074EF41 /* PhotoGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = A681B05E146750B50074EF41 /* PhotoGallery.m */; };
+		A681B061146750B50074EF41 /* PhotoGallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = A681B05F146750B50074EF41 /* PhotoGallery.xib */; };
+		A6AB2BF2148F4A3600667652 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AB2BF0148F4A3600667652 /* MyView.m */; };
+		A6AB2BF3148F4A3600667652 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6AB2BF1148F4A3600667652 /* MyView.xib */; };
+		A6E7F750148D529800CC76C4 /* american_vulture1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F701148D529800CC76C4 /* american_vulture1_full.png */; };
+		A6E7F751148D529800CC76C4 /* american_vulture3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F702148D529800CC76C4 /* american_vulture3_full.png */; };
+		A6E7F752148D529800CC76C4 /* aplomado_falcon_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F703148D529800CC76C4 /* aplomado_falcon_00.png */; };
+		A6E7F753148D529800CC76C4 /* aplomado_falcon_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F704148D529800CC76C4 /* aplomado_falcon_01.png */; };
+		A6E7F754148D529800CC76C4 /* apolmado_falcon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F705148D529800CC76C4 /* apolmado_falcon_02.png */; };
+		A6E7F755148D529800CC76C4 /* aplomado_falcon_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F706148D529800CC76C4 /* aplomado_falcon_03.png */; };
+		A6E7F756148D529800CC76C4 /* bald_eagle_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F707148D529800CC76C4 /* bald_eagle_00.png */; };
+		A6E7F757148D529800CC76C4 /* bald_eagle_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F708148D529800CC76C4 /* bald_eagle_01.png */; };
+		A6E7F758148D529800CC76C4 /* bald_eagle_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F709148D529800CC76C4 /* bald_eagle_02.png */; };
+		A6E7F759148D529800CC76C4 /* bald_eagle_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F70A148D529800CC76C4 /* bald_eagle_03.png */; };
+		A6E7F75A148D529800CC76C4 /* black_capped_vireo_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F70B148D529800CC76C4 /* black_capped_vireo_00.png */; };
+		A6E7F75B148D529800CC76C4 /* black_capped_vireo_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F70C148D529800CC76C4 /* black_capped_vireo_01.png */; };
+		A6E7F75C148D529800CC76C4 /* black_capped_vireo_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F70D148D529800CC76C4 /* black_capped_vireo_02.png */; };
+		A6E7F75D148D529800CC76C4 /* black_capped_vireo_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F70E148D529800CC76C4 /* black_capped_vireo_03.png */; };
+		A6E7F75E148D529800CC76C4 /* brown_pelican_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F70F148D529800CC76C4 /* brown_pelican_00.png */; };
+		A6E7F75F148D529800CC76C4 /* brown_pelican_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F710148D529800CC76C4 /* brown_pelican_01.png */; };
+		A6E7F760148D529800CC76C4 /* brown_pelican_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F711148D529800CC76C4 /* brown_pelican_02.png */; };
+		A6E7F761148D529800CC76C4 /* brown_pelican_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F712148D529800CC76C4 /* brown_pelican_03.png */; };
+		A6E7F762148D529800CC76C4 /* eskimo_curlew_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F713148D529800CC76C4 /* eskimo_curlew_00.png */; };
+		A6E7F763148D529800CC76C4 /* eskimo_curlew_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F714148D529800CC76C4 /* eskimo_curlew_01.png */; };
+		A6E7F764148D529800CC76C4 /* eskimo_curlew_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F715148D529800CC76C4 /* eskimo_curlew_02.png */; };
+		A6E7F765148D529800CC76C4 /* eskimo_curlew_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F716148D529800CC76C4 /* eskimo_curlew_03.png */; };
+		A6E7F766148D529800CC76C4 /* golden_warbler1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F717148D529800CC76C4 /* golden_warbler1_full.png */; };
+		A6E7F767148D529800CC76C4 /* golden_warbler2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F718148D529800CC76C4 /* golden_warbler2_full.png */; };
+		A6E7F768148D529800CC76C4 /* golden_warbler3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F719148D529800CC76C4 /* golden_warbler3_full.png */; };
+		A6E7F769148D529800CC76C4 /* golden_warbler4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F71A148D529800CC76C4 /* golden_warbler4_full.png */; };
+		A6E7F76A148D529800CC76C4 /* great_blue_heron1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F71B148D529800CC76C4 /* great_blue_heron1_full.png */; };
+		A6E7F76B148D529800CC76C4 /* great_blue_heron2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F71C148D529800CC76C4 /* great_blue_heron2_full.png */; };
+		A6E7F76C148D529800CC76C4 /* great_blue_heron3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F71D148D529800CC76C4 /* great_blue_heron3_full.png */; };
+		A6E7F76D148D529800CC76C4 /* great_blue_heron4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F71E148D529800CC76C4 /* great_blue_heron4_full.png */; };
+		A6E7F76E148D529800CC76C4 /* inter_least_tern1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F71F148D529800CC76C4 /* inter_least_tern1_full.png */; };
+		A6E7F76F148D529800CC76C4 /* interior_least_tern2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F720148D529800CC76C4 /* interior_least_tern2_full.png */; };
+		A6E7F770148D529800CC76C4 /* interior_least_tern3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F721148D529800CC76C4 /* interior_least_tern3_full.png */; };
+		A6E7F771148D529800CC76C4 /* interior_least_tern4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F722148D529800CC76C4 /* interior_least_tern4_full.png */; };
+		A6E7F772148D529800CC76C4 /* little_blue_heron1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F723148D529800CC76C4 /* little_blue_heron1_full.png */; };
+		A6E7F773148D529800CC76C4 /* little_blue_heron2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F724148D529800CC76C4 /* little_blue_heron2_full.png */; };
+		A6E7F774148D529800CC76C4 /* little_blue_heron3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F725148D529800CC76C4 /* little_blue_heron3_full.png */; };
+		A6E7F775148D529800CC76C4 /* little_blue_heron4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F726148D529800CC76C4 /* little_blue_heron4_full.png */; };
+		A6E7F776148D529800CC76C4 /* mexican_spotted_owl1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F727148D529800CC76C4 /* mexican_spotted_owl1_full.png */; };
+		A6E7F777148D529800CC76C4 /* mexican_spotted_owl2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F728148D529800CC76C4 /* mexican_spotted_owl2_full.png */; };
+		A6E7F778148D529800CC76C4 /* mexican_spotted_owl3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F729148D529800CC76C4 /* mexican_spotted_owl3_full.png */; };
+		A6E7F779148D529800CC76C4 /* mexican_spotted_owl4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F72A148D529800CC76C4 /* mexican_spotted_owl4_full.png */; };
+		A6E7F77A148D529800CC76C4 /* piping_plover1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F72B148D529800CC76C4 /* piping_plover1_full.png */; };
+		A6E7F77B148D529800CC76C4 /* piping_plover2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F72C148D529800CC76C4 /* piping_plover2_full.png */; };
+		A6E7F77C148D529800CC76C4 /* piping_plover3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F72D148D529800CC76C4 /* piping_plover3_full.png */; };
+		A6E7F77D148D529800CC76C4 /* piping_plover4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F72E148D529800CC76C4 /* piping_plover4_full.png */; };
+		A6E7F77E148D529800CC76C4 /* piping_plover5_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F72F148D529800CC76C4 /* piping_plover5_full.png */; };
+		A6E7F77F148D529800CC76C4 /* red-cockaded_woodpecker_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F730148D529800CC76C4 /* red-cockaded_woodpecker_00.png */; };
+		A6E7F780148D529800CC76C4 /* red-cockaded_woodpecker_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F731148D529800CC76C4 /* red-cockaded_woodpecker_01.png */; };
+		A6E7F781148D529800CC76C4 /* red-cockaded_woodpecker_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F732148D529800CC76C4 /* red-cockaded_woodpecker_02.png */; };
+		A6E7F782148D529800CC76C4 /* red-cockaded_woodpecker_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F733148D529800CC76C4 /* red-cockaded_woodpecker_03.png */; };
+		A6E7F783148D529800CC76C4 /* reddish_egret_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F734148D529800CC76C4 /* reddish_egret_00.png */; };
+		A6E7F784148D529800CC76C4 /* reddish_egret_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F735148D529800CC76C4 /* reddish_egret_01.png */; };
+		A6E7F785148D529800CC76C4 /* reddish_egret_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F736148D529800CC76C4 /* reddish_egret_02.png */; };
+		A6E7F786148D529800CC76C4 /* reddish_egret_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F737148D529800CC76C4 /* reddish_egret_03.png */; };
+		A6E7F787148D529800CC76C4 /* rose_throated_becard1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F738148D529800CC76C4 /* rose_throated_becard1_full.png */; };
+		A6E7F788148D529800CC76C4 /* rose_throated_becard2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F739148D529800CC76C4 /* rose_throated_becard2_full.png */; };
+		A6E7F789148D529800CC76C4 /* rose_throated_becard3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F73A148D529800CC76C4 /* rose_throated_becard3_full.png */; };
+		A6E7F78A148D529800CC76C4 /* rose_throated_becard4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F73B148D529800CC76C4 /* rose_throated_becard4_full.png */; };
+		A6E7F78B148D529800CC76C4 /* roseate_spoonbill1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F73C148D529800CC76C4 /* roseate_spoonbill1_full.png */; };
+		A6E7F78C148D529800CC76C4 /* roseate_spoonbill2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F73D148D529800CC76C4 /* roseate_spoonbill2_full.png */; };
+		A6E7F78D148D529800CC76C4 /* roseate_spoonbill3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F73E148D529800CC76C4 /* roseate_spoonbill3_full.png */; };
+		A6E7F78E148D529800CC76C4 /* roseate_spoonbill4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F73F148D529800CC76C4 /* roseate_spoonbill4_full.png */; };
+		A6E7F78F148D529800CC76C4 /* swallow_tailed_kite_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F740148D529800CC76C4 /* swallow_tailed_kite_00.png */; };
+		A6E7F790148D529800CC76C4 /* swallow_tailed_kite_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F741148D529800CC76C4 /* swallow_tailed_kite_01.png */; };
+		A6E7F791148D529800CC76C4 /* swallow_tailed_kite_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F742148D529800CC76C4 /* swallow_tailed_kite_02.png */; };
+		A6E7F792148D529800CC76C4 /* swallow_tailed_kite_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F743148D529800CC76C4 /* swallow_tailed_kite_03.png */; };
+		A6E7F793148D529800CC76C4 /* white_faced_hawk_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F744148D529800CC76C4 /* white_faced_hawk_00.png */; };
+		A6E7F794148D529800CC76C4 /* white_faced_hawk_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F745148D529800CC76C4 /* white_faced_hawk_01.png */; };
+		A6E7F795148D529800CC76C4 /* white_faced_hawk_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F746148D529800CC76C4 /* white_faced_hawk_02.png */; };
+		A6E7F796148D529800CC76C4 /* white_faced_hawk_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F747148D529800CC76C4 /* white_faced_hawk_03.png */; };
+		A6E7F797148D529800CC76C4 /* white_faced_ibis_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F748148D529800CC76C4 /* white_faced_ibis_00.png */; };
+		A6E7F798148D529800CC76C4 /* white_faced_ibis_01.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F749148D529800CC76C4 /* white_faced_ibis_01.png */; };
+		A6E7F799148D529800CC76C4 /* white_faced_ibis_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F74A148D529800CC76C4 /* white_faced_ibis_02.png */; };
+		A6E7F79A148D529800CC76C4 /* white_faced_ibis_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F74B148D529800CC76C4 /* white_faced_ibis_03.png */; };
+		A6E7F79B148D529800CC76C4 /* whooping_crane1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F74C148D529800CC76C4 /* whooping_crane1_full.png */; };
+		A6E7F79C148D529800CC76C4 /* whooping_crane2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F74D148D529800CC76C4 /* whooping_crane2_full.png */; };
+		A6E7F79D148D529800CC76C4 /* whooping_crane3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F74E148D529800CC76C4 /* whooping_crane3_full.png */; };
+		A6E7F79E148D529800CC76C4 /* whooping_crane4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E7F74F148D529800CC76C4 /* whooping_crane4_full.png */; };
+		A6ECA879148D48F70009F8D6 /* BirdGalleryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ECA878148D48F70009F8D6 /* BirdGalleryModel.m */; };
+		A6F6678414906F91000578E3 /* BirdProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6678214906F91000578E3 /* BirdProfileViewController.m */; };
+		A6F6678514906F91000578E3 /* BirdProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F6678314906F91000578E3 /* BirdProfileViewController.xib */; };
+		A6F6678814906FDE000578E3 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F6678614906FDE000578E3 /* pause.png */; };
+		A6F6678914906FDE000578E3 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F6678714906FDE000578E3 /* play.png */; };
+		A6F6678C149071B9000578E3 /* camera_Roll_active.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F6678A149071B9000578E3 /* camera_Roll_active.png */; };
+		A6F6678D149071B9000578E3 /* camera_roll.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F6678B149071B9000578E3 /* camera_roll.png */; };
+		A6F6678F1490749B000578E3 /* birdbookbanner_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F6678E1490749B000578E3 /* birdbookbanner_back.png */; };
+		A6F667991490771D000578E3 /* Bird_SpotterDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A6F667981490771D000578E3 /* Bird_SpotterDB.sqlite */; };
+		A6F667BF14909D02000578E3 /* American_Black_Vulture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667AC14909D02000578E3 /* American_Black_Vulture.mp3 */; };
+		A6F667C014909D02000578E3 /* Aplomado_Falcon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667AD14909D02000578E3 /* Aplomado_Falcon.mp3 */; };
+		A6F667C114909D02000578E3 /* Bald_Eagle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667AE14909D02000578E3 /* Bald_Eagle.mp3 */; };
+		A6F667C214909D02000578E3 /* Black-capped_Vireo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667AF14909D02000578E3 /* Black-capped_Vireo.mp3 */; };
+		A6F667C314909D02000578E3 /* Brown_Pelican.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B014909D02000578E3 /* Brown_Pelican.mp3 */; };
+		A6F667C414909D02000578E3 /* Golden-cheeked_Warbler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B114909D02000578E3 /* Golden-cheeked_Warbler.mp3 */; };
+		A6F667C514909D02000578E3 /* Great_Blue_Heron.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B214909D02000578E3 /* Great_Blue_Heron.mp3 */; };
+		A6F667C614909D02000578E3 /* Interior_Least_Tern.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B314909D02000578E3 /* Interior_Least_Tern.mp3 */; };
+		A6F667C714909D02000578E3 /* Little_Blue_Heron.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B414909D02000578E3 /* Little_Blue_Heron.mp3 */; };
+		A6F667C814909D02000578E3 /* Mexican_Spotted_Owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B514909D02000578E3 /* Mexican_Spotted_Owl.mp3 */; };
+		A6F667C914909D02000578E3 /* Northern_Shoveler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B614909D02000578E3 /* Northern_Shoveler.mp3 */; };
+		A6F667CA14909D02000578E3 /* Piping_Plover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B714909D02000578E3 /* Piping_Plover.mp3 */; };
+		A6F667CB14909D02000578E3 /* Red-cockaded_Woodpecker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B814909D02000578E3 /* Red-cockaded_Woodpecker.mp3 */; };
+		A6F667CC14909D02000578E3 /* Reddish_Egret.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667B914909D02000578E3 /* Reddish_Egret.mp3 */; };
+		A6F667CD14909D02000578E3 /* Roseate_Spoonbill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667BA14909D02000578E3 /* Roseate_Spoonbill.mp3 */; };
+		A6F667CE14909D02000578E3 /* Swallow_Tailed_Kite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667BB14909D02000578E3 /* Swallow_Tailed_Kite.mp3 */; };
+		A6F667CF14909D02000578E3 /* White_Faced_Ibis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667BC14909D02000578E3 /* White_Faced_Ibis.mp3 */; };
+		A6F667D014909D02000578E3 /* White-tailed_Hawk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667BD14909D02000578E3 /* White-tailed_Hawk.mp3 */; };
+		A6F667D114909D02000578E3 /* Whopping_Crane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6F667BE14909D02000578E3 /* Whopping_Crane.mp3 */; };
+		AF67F3291446336C00CE57B4 /* BirdBookCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF67F3281446336C00CE57B4 /* BirdBookCellViewController.m */; };
+		AF67F32C1446342000CE57B4 /* BirdBookCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF67F32B1446342000CE57B4 /* BirdBookCellView.xib */; };
+		AF67F3311446373900CE57B4 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF67F32E1446373900CE57B4 /* bird1.png */; };
+		AF67F3321446373900CE57B4 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF67F32F1446373900CE57B4 /* bird2.png */; };
+		AF67F3331446373900CE57B4 /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF67F3301446373900CE57B4 /* bird3.png */; };
+		F50A3EEE14680148001D6814 /* galleryBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = F50A3EE714680148001D6814 /* galleryBanner.png */; };
+		F50A3EF114680148001D6814 /* toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F50A3EEA14680148001D6814 /* toolbar.png */; };
+		F50F88F8146B6A4E0061743A /* aplomado_falcon_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88EE146B6A4C0061743A /* aplomado_falcon_00.png */; };
+		F50F88FA146B6A4E0061743A /* black_capped_vireo_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F0146B6A4C0061743A /* black_capped_vireo_00.png */; };
+		F50F88FB146B6A4E0061743A /* brown_pelican_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F1146B6A4C0061743A /* brown_pelican_00.png */; };
+		F50F88FC146B6A4E0061743A /* eskimo_curlew_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F2146B6A4C0061743A /* eskimo_curlew_00.png */; };
+		F50F88FD146B6A4E0061743A /* red-cockaded_woodpecker_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F3146B6A4D0061743A /* red-cockaded_woodpecker_00.png */; };
+		F50F88FE146B6A4E0061743A /* reddish_egret_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F4146B6A4D0061743A /* reddish_egret_00.png */; };
+		F50F88FF146B6A4E0061743A /* swallow_tailed_kite_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F5146B6A4D0061743A /* swallow_tailed_kite_00.png */; };
+		F50F8900146B6A4E0061743A /* white_faced_hawk_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F6146B6A4D0061743A /* white_faced_hawk_00.png */; };
+		F50F8901146B6A4E0061743A /* white_faced_ibis_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F88F7146B6A4D0061743A /* white_faced_ibis_00.png */; };
+		F50F8903146B6B970061743A /* bald_eagle_00.png in Resources */ = {isa = PBXBuildFile; fileRef = F50F8902146B6B960061743A /* bald_eagle_00.png */; };
+		F516705E147BD52F000420ED /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F516705D147BD52F000420ED /* Settings.bundle */; };
+		F51EE0091487277000364DF6 /* Selecter.m in Sources */ = {isa = PBXBuildFile; fileRef = F51EE0071487277000364DF6 /* Selecter.m */; };
+		F51EE00A1487277000364DF6 /* Selecter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51EE0081487277000364DF6 /* Selecter.xib */; };
+		F53127B414459DFB00FAD875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53127B314459DFB00FAD875 /* UIKit.framework */; };
+		F53127B614459DFB00FAD875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53127B514459DFB00FAD875 /* Foundation.framework */; };
+		F53127B814459DFB00FAD875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53127B714459DFB00FAD875 /* CoreGraphics.framework */; };
+		F53127BA14459DFB00FAD875 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53127B914459DFB00FAD875 /* CoreData.framework */; };
+		F53127C014459DFB00FAD875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F53127BE14459DFB00FAD875 /* InfoPlist.strings */; };
+		F53127C214459DFB00FAD875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53127C114459DFB00FAD875 /* main.m */; };
+		F53127C614459DFB00FAD875 /* BirdSpotterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53127C514459DFB00FAD875 /* BirdSpotterAppDelegate.m */; };
+		F53127C914459DFB00FAD875 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53127C714459DFB00FAD875 /* MainWindow.xib */; };
+		F53127D314459F7400FAD875 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F53127D214459F7400FAD875 /* icon.png */; };
+		F53127D714459FF400FAD875 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F53127D614459FF400FAD875 /* Default.png */; };
+		F53127E31445A66E00FAD875 /* AlphaMask.m in Sources */ = {isa = PBXBuildFile; fileRef = F53127E01445A66E00FAD875 /* AlphaMask.m */; };
+		F53127E41445A66E00FAD875 /* ClickThruButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F53127E21445A66E00FAD875 /* ClickThruButton.m */; };
+		F53127F11445A9BD00FAD875 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53127EF1445A9BD00FAD875 /* MenuViewController.m */; };
+		F53127F21445A9BD00FAD875 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53127F01445A9BD00FAD875 /* MenuViewController.xib */; };
+		F531280E1445D40300FAD875 /* lounge_img.png in Resources */ = {isa = PBXBuildFile; fileRef = F531280C1445D40300FAD875 /* lounge_img.png */; };
+		F53128221445F2B900FAD875 /* BirdBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53128201445F2B900FAD875 /* BirdBookTableViewController.m */; };
+		F53128231445F2B900FAD875 /* BirdBookTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53128211445F2B900FAD875 /* BirdBookTableViewController.xib */; };
+		F53128291445F3B500FAD875 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F53128281445F3B500FAD875 /* libsqlite3.0.dylib */; };
+		F531282D1445F54900FAD875 /* BirdProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F531282C1445F54900FAD875 /* BirdProfileModel.m */; };
+		F53128301445F60800FAD875 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = F531282F1445F60800FAD875 /* Bird.m */; };
+		F54455E6149026D3008F3F18 /* active_home_birdbook_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455DF149026CF008F3F18 /* active_home_birdbook_button.png */; };
+		F54455E7149026D3008F3F18 /* active_home_gallery_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455E0149026CF008F3F18 /* active_home_gallery_button.png */; };
+		F54455E8149026D3008F3F18 /* active_home_hotspots_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455E1149026D0008F3F18 /* active_home_hotspots_button.png */; };
+		F54455EA149026D3008F3F18 /* home_gallery_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455E3149026D1008F3F18 /* home_gallery_button.png */; };
+		F54455EB149026D3008F3F18 /* home_hotspots_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455E4149026D2008F3F18 /* home_hotspots_button.png */; };
+		F54455EC149026D3008F3F18 /* new_home_page.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455E5149026D3008F3F18 /* new_home_page.png */; };
+		F54455EE1490291D008F3F18 /* home_birdbook_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455ED1490291C008F3F18 /* home_birdbook_button.png */; };
+		F54455F114902A7B008F3F18 /* done_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455EF14902A78008F3F18 /* done_button_active.png */; };
+		F54455F214902A7B008F3F18 /* done_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455F014902A79008F3F18 /* done_button.png */; };
+		F54455F514903016008F3F18 /* backbutton_active.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455F314903014008F3F18 /* backbutton_active.png */; };
+		F54455F614903016008F3F18 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455F414903015008F3F18 /* backbutton.png */; };
+		F54455F814903199008F3F18 /* birdProfileBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = F54455F714903199008F3F18 /* birdProfileBanner.png */; };
+		F565FA3F1458E3AF00C5231C /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F565FA3E1458E3AF00C5231C /* SectionHeaderView.m */; };
+		F565FA421458E5E900C5231C /* SectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F565FA411458E5E900C5231C /* SectionInfo.m */; };
+		F565FA441458FE7600C5231C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565FA431458FE7600C5231C /* QuartzCore.framework */; };
+		F565FA4714590C3600C5231C /* carat-open.png in Resources */ = {isa = PBXBuildFile; fileRef = F565FA4514590C3600C5231C /* carat-open.png */; };
+		F565FA4814590C3600C5231C /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = F565FA4614590C3600C5231C /* carat.png */; };
+		F56FF10114504734005878AC /* GeoLocationHelperModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F56FF10014504734005878AC /* GeoLocationHelperModel.m */; };
+		F56FF105145048BB005878AC /* HotSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = F56FF104145048BB005878AC /* HotSpot.m */; };
+		F58B76AE144F96C6005C5D3C /* HotspotMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B76AC144F96C6005C5D3C /* HotspotMapViewController.m */; };
+		F58B76AF144F96C6005C5D3C /* HotspotMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58B76AD144F96C6005C5D3C /* HotspotMapViewController.xib */; };
+		F58B76CA144FD930005C5D3C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58B76C9144FD92F005C5D3C /* MapKit.framework */; };
+		F58B76D1144FDF81005C5D3C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58B76D0144FDF81005C5D3C /* CoreLocation.framework */; };
+		F58B76D7144FE015005C5D3C /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F58B76D6144FE015005C5D3C /* Location.m */; };
+		F5A52B65144DE967009EC088 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A52B64144DE967009EC088 /* UserPreferences.m */; };
+		F5D26DE0146AA05B00C7DEBE /* aplomado_falcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DDF146AA05B00C7DEBE /* aplomado_falcon.png */; };
+		F5D26DE3146AA06700C7DEBE /* bald_eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DE2146AA06700C7DEBE /* bald_eagle.png */; };
+		F5D26DE5146AA07600C7DEBE /* black_capped_vireo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DE4146AA07600C7DEBE /* black_capped_vireo.png */; };
+		F5D26DE7146AA07F00C7DEBE /* brown_pelican.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DE6146AA07F00C7DEBE /* brown_pelican.png */; };
+		F5D26DE9146AA08C00C7DEBE /* eskimo_curlew.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DE8146AA08C00C7DEBE /* eskimo_curlew.png */; };
+		F5D26DEB146AA09500C7DEBE /* red-cockaded_woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DEA146AA09500C7DEBE /* red-cockaded_woodpecker.png */; };
+		F5D26DED146AA09F00C7DEBE /* reddish_egret.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DEC146AA09F00C7DEBE /* reddish_egret.png */; };
+		F5D26DEF146AA0AB00C7DEBE /* swallow_tailed_kite.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DEE146AA0AB00C7DEBE /* swallow_tailed_kite.png */; };
+		F5D26DF1146AA0B700C7DEBE /* white_faced_ibis.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DF0146AA0B700C7DEBE /* white_faced_ibis.png */; };
+		F5D26DF3146AA0C100C7DEBE /* white_faced_hawk.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D26DF2146AA0C100C7DEBE /* white_faced_hawk.png */; };
+		F5E05F831446A0C6002451DD /* American_black_Vulture.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F791446A0C6002451DD /* American_black_Vulture.png */; };
+		F5E05F841446A0C6002451DD /* Golden_cheeked_Warbler.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F7A1446A0C6002451DD /* Golden_cheeked_Warbler.png */; };
+		F5E05F851446A0C6002451DD /* Great_Blue_Heron.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F7B1446A0C6002451DD /* Great_Blue_Heron.png */; };
+		F5E05F861446A0C6002451DD /* Interior_least_tern.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F7C1446A0C6002451DD /* Interior_least_tern.png */; };
+		F5E05F871446A0C6002451DD /* Little_Blue_Heron.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F7D1446A0C6002451DD /* Little_Blue_Heron.png */; };
+		F5E05F881446A0C6002451DD /* Mexican_Spotted_owl.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F7E1446A0C6002451DD /* Mexican_Spotted_owl.png */; };
+		F5E05F891446A0C6002451DD /* Piping_plover.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F7F1446A0C6002451DD /* Piping_plover.png */; };
+		F5E05F8A1446A0C6002451DD /* Rose-throated_becard.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F801446A0C6002451DD /* Rose-throated_becard.png */; };
+		F5E05F8B1446A0C6002451DD /* Roseate_Spoonbill.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F811446A0C6002451DD /* Roseate_Spoonbill.png */; };
+		F5E05F8C1446A0C6002451DD /* Whooping_Crane.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F821446A0C6002451DD /* Whooping_Crane.png */; };
+		F5E05F9C1446EA83002451DD /* becard_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F921446EA83002451DD /* becard_prof.png */; };
+		F5E05F9D1446EA83002451DD /* great_heron_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F931446EA83002451DD /* great_heron_prof.png */; };
+		F5E05F9E1446EA83002451DD /* heron_little_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F941446EA83002451DD /* heron_little_prof.png */; };
+		F5E05F9F1446EA83002451DD /* interior_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F951446EA83002451DD /* interior_prof.png */; };
+		F5E05FA01446EA83002451DD /* owl_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F961446EA83002451DD /* owl_prof.png */; };
+		F5E05FA11446EA83002451DD /* power_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F971446EA83002451DD /* power_prof.png */; };
+		F5E05FA21446EA83002451DD /* spoonbill_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F981446EA83002451DD /* spoonbill_prof.png */; };
+		F5E05FA31446EA83002451DD /* vulture_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F991446EA83002451DD /* vulture_prof.png */; };
+		F5E05FA41446EA83002451DD /* warbler_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F9A1446EA83002451DD /* warbler_prof.png */; };
+		F5E05FA51446EA83002451DD /* whooping_prof.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E05F9B1446EA83002451DD /* whooping_prof.png */; };
+		F5E262A9148DDCA30025F032 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E262A8148DDCA20025F032 /* AVFoundation.framework */; };
+		F5E262B6148DDDDA0025F032 /* no audio in Resources */ = {isa = PBXBuildFile; fileRef = F5E262B5148DDDDA0025F032 /* no audio */; };
+		F5E262F0148E95010025F032 /* australian_pelican.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262E6148E95010025F032 /* australian_pelican.png */; };
+		F5E262F1148E95010025F032 /* black_kite.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262E7148E95010025F032 /* black_kite.png */; };
+		F5E262F2148E95010025F032 /* black_swan.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262E8148E95010025F032 /* black_swan.png */; };
+		F5E262F3148E95010025F032 /* crowned_eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262E9148E95010025F032 /* crowned_eagle.png */; };
+		F5E262F4148E95010025F032 /* egyptian_vulture.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262EA148E95010025F032 /* egyptian_vulture.png */; };
+		F5E262F5148E95010025F032 /* flightless_cormorant.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262EB148E95010025F032 /* flightless_cormorant.png */; };
+		F5E262F6148E95010025F032 /* king_vulture.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262EC148E95010025F032 /* king_vulture.png */; };
+		F5E262F7148E95010025F032 /* lesser_flamingo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262ED148E95010025F032 /* lesser_flamingo.png */; };
+		F5E262F8148E95010025F032 /* magpie_goose.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262EE148E95010025F032 /* magpie_goose.png */; };
+		F5E262F9148E95010025F032 /* northern_shoveler.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E262EF148E95010025F032 /* northern_shoveler.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6199A9A1482DD3700CAB750 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		A6199A9B1482DD3700CAB750 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		A6199A9C1482DD3700CAB750 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		A62A689E148D941900C22C67 /* american_vulture2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = american_vulture2_full.png; path = images/Gallery/american_vulture2_full.png; sourceTree = "<group>"; };
+		A659C1F2148F065A00ED3896 /* backbutton_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton_active.png; path = graphics/backbutton_active.png; sourceTree = "<group>"; };
+		A659C1F3148F065A00ED3896 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton.png; path = graphics/backbutton.png; sourceTree = "<group>"; };
+		A659C1F8148F131700ED3896 /* new_gallery_topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_gallery_topbar.png; path = graphics/new_gallery_topbar.png; sourceTree = "<group>"; };
+		A659C1FA148F147A00ED3896 /* tb_birdbook_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_birdbook_button_active.png; path = graphics/tb_birdbook_button_active.png; sourceTree = "<group>"; };
+		A659C1FB148F147B00ED3896 /* tb_birdbook_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_birdbook_button.png; path = graphics/tb_birdbook_button.png; sourceTree = "<group>"; };
+		A659C1FC148F147B00ED3896 /* tb_camera_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_camera_button_active.png; path = graphics/tb_camera_button_active.png; sourceTree = "<group>"; };
+		A659C1FD148F147B00ED3896 /* tb_camera_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_camera_button.png; path = graphics/tb_camera_button.png; sourceTree = "<group>"; };
+		A659C1FE148F147C00ED3896 /* tb_gallery_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_gallery_button_active.png; path = graphics/tb_gallery_button_active.png; sourceTree = "<group>"; };
+		A659C1FF148F147C00ED3896 /* tb_gallery_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_gallery_button.png; path = graphics/tb_gallery_button.png; sourceTree = "<group>"; };
+		A659C200148F147C00ED3896 /* tb_home_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_home_button_active.png; path = graphics/tb_home_button_active.png; sourceTree = "<group>"; };
+		A659C201148F147C00ED3896 /* tb_home_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_home_button.png; path = graphics/tb_home_button.png; sourceTree = "<group>"; };
+		A659C202148F147C00ED3896 /* tb_search_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_search_button_active.png; path = graphics/tb_search_button_active.png; sourceTree = "<group>"; };
+		A659C203148F147D00ED3896 /* tb_search_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb_search_button.png; path = graphics/tb_search_button.png; sourceTree = "<group>"; };
+		A659C20E148F174300ED3896 /* camera_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_button_active.png; path = graphics/camera_button_active.png; sourceTree = "<group>"; };
+		A659C20F148F174300ED3896 /* camera_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_button.png; path = graphics/camera_button.png; sourceTree = "<group>"; };
+		A66FEF0C1484BAA200F7FA30 /* ViewControllerForDuplicateEndCaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerForDuplicateEndCaps.h; sourceTree = "<group>"; };
+		A66FEF0D1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerForDuplicateEndCaps.m; sourceTree = "<group>"; };
+		A66FEF0E1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerForDuplicateEndCaps.xib; sourceTree = "<group>"; };
+		A6811BBE1465CEC500777017 /* MultipleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleViewController.h; sourceTree = "<group>"; };
+		A6811BBF1465CEC500777017 /* MultipleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleViewController.m; sourceTree = "<group>"; };
+		A6811BC01465CEC500777017 /* MultipleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleViewController.xib; sourceTree = "<group>"; };
+		A681B05D146750B50074EF41 /* PhotoGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGallery.h; sourceTree = "<group>"; };
+		A681B05E146750B50074EF41 /* PhotoGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGallery.m; sourceTree = "<group>"; };
+		A681B05F146750B50074EF41 /* PhotoGallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoGallery.xib; sourceTree = "<group>"; };
+		A6AB2BEF148F4A3600667652 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		A6AB2BF0148F4A3600667652 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		A6AB2BF1148F4A3600667652 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		A6E7F701148D529800CC76C4 /* american_vulture1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = american_vulture1_full.png; path = images/Gallery/american_vulture1_full.png; sourceTree = "<group>"; };
+		A6E7F702148D529800CC76C4 /* american_vulture3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = american_vulture3_full.png; path = images/Gallery/american_vulture3_full.png; sourceTree = "<group>"; };
+		A6E7F703148D529800CC76C4 /* aplomado_falcon_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aplomado_falcon_00.png; path = images/Gallery/aplomado_falcon_00.png; sourceTree = "<group>"; };
+		A6E7F704148D529800CC76C4 /* aplomado_falcon_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aplomado_falcon_01.png; path = images/Gallery/aplomado_falcon_01.png; sourceTree = "<group>"; };
+		A6E7F705148D529800CC76C4 /* apolmado_falcon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apolmado_falcon_02.png; path = images/Gallery/apolmado_falcon_02.png; sourceTree = "<group>"; };
+		A6E7F706148D529800CC76C4 /* aplomado_falcon_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aplomado_falcon_03.png; path = images/Gallery/aplomado_falcon_03.png; sourceTree = "<group>"; };
+		A6E7F707148D529800CC76C4 /* bald_eagle_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bald_eagle_00.png; path = images/Gallery/bald_eagle_00.png; sourceTree = "<group>"; };
+		A6E7F708148D529800CC76C4 /* bald_eagle_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bald_eagle_01.png; path = images/Gallery/bald_eagle_01.png; sourceTree = "<group>"; };
+		A6E7F709148D529800CC76C4 /* bald_eagle_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bald_eagle_02.png; path = images/Gallery/bald_eagle_02.png; sourceTree = "<group>"; };
+		A6E7F70A148D529800CC76C4 /* bald_eagle_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bald_eagle_03.png; path = images/Gallery/bald_eagle_03.png; sourceTree = "<group>"; };
+		A6E7F70B148D529800CC76C4 /* black_capped_vireo_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_capped_vireo_00.png; path = images/Gallery/black_capped_vireo_00.png; sourceTree = "<group>"; };
+		A6E7F70C148D529800CC76C4 /* black_capped_vireo_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_capped_vireo_01.png; path = images/Gallery/black_capped_vireo_01.png; sourceTree = "<group>"; };
+		A6E7F70D148D529800CC76C4 /* black_capped_vireo_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_capped_vireo_02.png; path = images/Gallery/black_capped_vireo_02.png; sourceTree = "<group>"; };
+		A6E7F70E148D529800CC76C4 /* black_capped_vireo_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_capped_vireo_03.png; path = images/Gallery/black_capped_vireo_03.png; sourceTree = "<group>"; };
+		A6E7F70F148D529800CC76C4 /* brown_pelican_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown_pelican_00.png; path = images/Gallery/brown_pelican_00.png; sourceTree = "<group>"; };
+		A6E7F710148D529800CC76C4 /* brown_pelican_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown_pelican_01.png; path = images/Gallery/brown_pelican_01.png; sourceTree = "<group>"; };
+		A6E7F711148D529800CC76C4 /* brown_pelican_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown_pelican_02.png; path = images/Gallery/brown_pelican_02.png; sourceTree = "<group>"; };
+		A6E7F712148D529800CC76C4 /* brown_pelican_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown_pelican_03.png; path = images/Gallery/brown_pelican_03.png; sourceTree = "<group>"; };
+		A6E7F713148D529800CC76C4 /* eskimo_curlew_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eskimo_curlew_00.png; path = images/Gallery/eskimo_curlew_00.png; sourceTree = "<group>"; };
+		A6E7F714148D529800CC76C4 /* eskimo_curlew_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eskimo_curlew_01.png; path = images/Gallery/eskimo_curlew_01.png; sourceTree = "<group>"; };
+		A6E7F715148D529800CC76C4 /* eskimo_curlew_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eskimo_curlew_02.png; path = images/Gallery/eskimo_curlew_02.png; sourceTree = "<group>"; };
+		A6E7F716148D529800CC76C4 /* eskimo_curlew_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eskimo_curlew_03.png; path = images/Gallery/eskimo_curlew_03.png; sourceTree = "<group>"; };
+		A6E7F717148D529800CC76C4 /* golden_warbler1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golden_warbler1_full.png; path = images/Gallery/golden_warbler1_full.png; sourceTree = "<group>"; };
+		A6E7F718148D529800CC76C4 /* golden_warbler2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golden_warbler2_full.png; path = images/Gallery/golden_warbler2_full.png; sourceTree = "<group>"; };
+		A6E7F719148D529800CC76C4 /* golden_warbler3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golden_warbler3_full.png; path = images/Gallery/golden_warbler3_full.png; sourceTree = "<group>"; };
+		A6E7F71A148D529800CC76C4 /* golden_warbler4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golden_warbler4_full.png; path = images/Gallery/golden_warbler4_full.png; sourceTree = "<group>"; };
+		A6E7F71B148D529800CC76C4 /* great_blue_heron1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = great_blue_heron1_full.png; path = images/Gallery/great_blue_heron1_full.png; sourceTree = "<group>"; };
+		A6E7F71C148D529800CC76C4 /* great_blue_heron2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = great_blue_heron2_full.png; path = images/Gallery/great_blue_heron2_full.png; sourceTree = "<group>"; };
+		A6E7F71D148D529800CC76C4 /* great_blue_heron3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = great_blue_heron3_full.png; path = images/Gallery/great_blue_heron3_full.png; sourceTree = "<group>"; };
+		A6E7F71E148D529800CC76C4 /* great_blue_heron4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = great_blue_heron4_full.png; path = images/Gallery/great_blue_heron4_full.png; sourceTree = "<group>"; };
+		A6E7F71F148D529800CC76C4 /* inter_least_tern1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inter_least_tern1_full.png; path = images/Gallery/inter_least_tern1_full.png; sourceTree = "<group>"; };
+		A6E7F720148D529800CC76C4 /* interior_least_tern2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interior_least_tern2_full.png; path = images/Gallery/interior_least_tern2_full.png; sourceTree = "<group>"; };
+		A6E7F721148D529800CC76C4 /* interior_least_tern3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interior_least_tern3_full.png; path = images/Gallery/interior_least_tern3_full.png; sourceTree = "<group>"; };
+		A6E7F722148D529800CC76C4 /* interior_least_tern4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interior_least_tern4_full.png; path = images/Gallery/interior_least_tern4_full.png; sourceTree = "<group>"; };
+		A6E7F723148D529800CC76C4 /* little_blue_heron1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_blue_heron1_full.png; path = images/Gallery/little_blue_heron1_full.png; sourceTree = "<group>"; };
+		A6E7F724148D529800CC76C4 /* little_blue_heron2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_blue_heron2_full.png; path = images/Gallery/little_blue_heron2_full.png; sourceTree = "<group>"; };
+		A6E7F725148D529800CC76C4 /* little_blue_heron3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_blue_heron3_full.png; path = images/Gallery/little_blue_heron3_full.png; sourceTree = "<group>"; };
+		A6E7F726148D529800CC76C4 /* little_blue_heron4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_blue_heron4_full.png; path = images/Gallery/little_blue_heron4_full.png; sourceTree = "<group>"; };
+		A6E7F727148D529800CC76C4 /* mexican_spotted_owl1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mexican_spotted_owl1_full.png; path = images/Gallery/mexican_spotted_owl1_full.png; sourceTree = "<group>"; };
+		A6E7F728148D529800CC76C4 /* mexican_spotted_owl2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mexican_spotted_owl2_full.png; path = images/Gallery/mexican_spotted_owl2_full.png; sourceTree = "<group>"; };
+		A6E7F729148D529800CC76C4 /* mexican_spotted_owl3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mexican_spotted_owl3_full.png; path = images/Gallery/mexican_spotted_owl3_full.png; sourceTree = "<group>"; };
+		A6E7F72A148D529800CC76C4 /* mexican_spotted_owl4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mexican_spotted_owl4_full.png; path = images/Gallery/mexican_spotted_owl4_full.png; sourceTree = "<group>"; };
+		A6E7F72B148D529800CC76C4 /* piping_plover1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piping_plover1_full.png; path = images/Gallery/piping_plover1_full.png; sourceTree = "<group>"; };
+		A6E7F72C148D529800CC76C4 /* piping_plover2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piping_plover2_full.png; path = images/Gallery/piping_plover2_full.png; sourceTree = "<group>"; };
+		A6E7F72D148D529800CC76C4 /* piping_plover3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piping_plover3_full.png; path = images/Gallery/piping_plover3_full.png; sourceTree = "<group>"; };
+		A6E7F72E148D529800CC76C4 /* piping_plover4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piping_plover4_full.png; path = images/Gallery/piping_plover4_full.png; sourceTree = "<group>"; };
+		A6E7F72F148D529800CC76C4 /* piping_plover5_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piping_plover5_full.png; path = images/Gallery/piping_plover5_full.png; sourceTree = "<group>"; };
+		A6E7F730148D529800CC76C4 /* red-cockaded_woodpecker_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-cockaded_woodpecker_00.png"; path = "images/Gallery/red-cockaded_woodpecker_00.png"; sourceTree = "<group>"; };
+		A6E7F731148D529800CC76C4 /* red-cockaded_woodpecker_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-cockaded_woodpecker_01.png"; path = "images/Gallery/red-cockaded_woodpecker_01.png"; sourceTree = "<group>"; };
+		A6E7F732148D529800CC76C4 /* red-cockaded_woodpecker_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-cockaded_woodpecker_02.png"; path = "images/Gallery/red-cockaded_woodpecker_02.png"; sourceTree = "<group>"; };
+		A6E7F733148D529800CC76C4 /* red-cockaded_woodpecker_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-cockaded_woodpecker_03.png"; path = "images/Gallery/red-cockaded_woodpecker_03.png"; sourceTree = "<group>"; };
+		A6E7F734148D529800CC76C4 /* reddish_egret_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reddish_egret_00.png; path = images/Gallery/reddish_egret_00.png; sourceTree = "<group>"; };
+		A6E7F735148D529800CC76C4 /* reddish_egret_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reddish_egret_01.png; path = images/Gallery/reddish_egret_01.png; sourceTree = "<group>"; };
+		A6E7F736148D529800CC76C4 /* reddish_egret_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reddish_egret_02.png; path = images/Gallery/reddish_egret_02.png; sourceTree = "<group>"; };
+		A6E7F737148D529800CC76C4 /* reddish_egret_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reddish_egret_03.png; path = images/Gallery/reddish_egret_03.png; sourceTree = "<group>"; };
+		A6E7F738148D529800CC76C4 /* rose_throated_becard1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rose_throated_becard1_full.png; path = images/Gallery/rose_throated_becard1_full.png; sourceTree = "<group>"; };
+		A6E7F739148D529800CC76C4 /* rose_throated_becard2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rose_throated_becard2_full.png; path = images/Gallery/rose_throated_becard2_full.png; sourceTree = "<group>"; };
+		A6E7F73A148D529800CC76C4 /* rose_throated_becard3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rose_throated_becard3_full.png; path = images/Gallery/rose_throated_becard3_full.png; sourceTree = "<group>"; };
+		A6E7F73B148D529800CC76C4 /* rose_throated_becard4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rose_throated_becard4_full.png; path = images/Gallery/rose_throated_becard4_full.png; sourceTree = "<group>"; };
+		A6E7F73C148D529800CC76C4 /* roseate_spoonbill1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roseate_spoonbill1_full.png; path = images/Gallery/roseate_spoonbill1_full.png; sourceTree = "<group>"; };
+		A6E7F73D148D529800CC76C4 /* roseate_spoonbill2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roseate_spoonbill2_full.png; path = images/Gallery/roseate_spoonbill2_full.png; sourceTree = "<group>"; };
+		A6E7F73E148D529800CC76C4 /* roseate_spoonbill3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roseate_spoonbill3_full.png; path = images/Gallery/roseate_spoonbill3_full.png; sourceTree = "<group>"; };
+		A6E7F73F148D529800CC76C4 /* roseate_spoonbill4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roseate_spoonbill4_full.png; path = images/Gallery/roseate_spoonbill4_full.png; sourceTree = "<group>"; };
+		A6E7F740148D529800CC76C4 /* swallow_tailed_kite_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swallow_tailed_kite_00.png; path = images/Gallery/swallow_tailed_kite_00.png; sourceTree = "<group>"; };
+		A6E7F741148D529800CC76C4 /* swallow_tailed_kite_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swallow_tailed_kite_01.png; path = images/Gallery/swallow_tailed_kite_01.png; sourceTree = "<group>"; };
+		A6E7F742148D529800CC76C4 /* swallow_tailed_kite_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swallow_tailed_kite_02.png; path = images/Gallery/swallow_tailed_kite_02.png; sourceTree = "<group>"; };
+		A6E7F743148D529800CC76C4 /* swallow_tailed_kite_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swallow_tailed_kite_03.png; path = images/Gallery/swallow_tailed_kite_03.png; sourceTree = "<group>"; };
+		A6E7F744148D529800CC76C4 /* white_faced_hawk_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_hawk_00.png; path = images/Gallery/white_faced_hawk_00.png; sourceTree = "<group>"; };
+		A6E7F745148D529800CC76C4 /* white_faced_hawk_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_hawk_01.png; path = images/Gallery/white_faced_hawk_01.png; sourceTree = "<group>"; };
+		A6E7F746148D529800CC76C4 /* white_faced_hawk_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_hawk_02.png; path = images/Gallery/white_faced_hawk_02.png; sourceTree = "<group>"; };
+		A6E7F747148D529800CC76C4 /* white_faced_hawk_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_hawk_03.png; path = images/Gallery/white_faced_hawk_03.png; sourceTree = "<group>"; };
+		A6E7F748148D529800CC76C4 /* white_faced_ibis_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_ibis_00.png; path = images/Gallery/white_faced_ibis_00.png; sourceTree = "<group>"; };
+		A6E7F749148D529800CC76C4 /* white_faced_ibis_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_ibis_01.png; path = images/Gallery/white_faced_ibis_01.png; sourceTree = "<group>"; };
+		A6E7F74A148D529800CC76C4 /* white_faced_ibis_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_ibis_02.png; path = images/Gallery/white_faced_ibis_02.png; sourceTree = "<group>"; };
+		A6E7F74B148D529800CC76C4 /* white_faced_ibis_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_faced_ibis_03.png; path = images/Gallery/white_faced_ibis_03.png; sourceTree = "<group>"; };
+		A6E7F74C148D529800CC76C4 /* whooping_crane1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whooping_crane1_full.png; path = images/Gallery/whooping_crane1_full.png; sourceTree = "<group>"; };
+		A6E7F74D148D529800CC76C4 /* whooping_crane2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whooping_crane2_full.png; path = images/Gallery/whooping_crane2_full.png; sourceTree = "<group>"; };
+		A6E7F74E148D529800CC76C4 /* whooping_crane3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whooping_crane3_full.png; path = images/Gallery/whooping_crane3_full.png; sourceTree = "<group>"; };
+		A6E7F74F148D529800CC76C4 /* whooping_crane4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whooping_crane4_full.png; path = images/Gallery/whooping_crane4_full.png; sourceTree = "<group>"; };
+		A6ECA877148D48F70009F8D6 /* BirdGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdGalleryModel.h; sourceTree = "<group>"; };
+		A6ECA878148D48F70009F8D6 /* BirdGalleryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdGalleryModel.m; sourceTree = "<group>"; };
+		A6F6678114906F91000578E3 /* BirdProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdProfileViewController.h; sourceTree = "<group>"; };
+		A6F6678214906F91000578E3 /* BirdProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdProfileViewController.m; sourceTree = "<group>"; };
+		A6F6678314906F91000578E3 /* BirdProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirdProfileViewController.xib; sourceTree = "<group>"; };
+		A6F6678614906FDE000578E3 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = graphics/pause.png; sourceTree = "<group>"; };
+		A6F6678714906FDE000578E3 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = graphics/play.png; sourceTree = "<group>"; };
+		A6F6678A149071B9000578E3 /* camera_Roll_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_Roll_active.png; path = graphics/camera_Roll_active.png; sourceTree = "<group>"; };
+		A6F6678B149071B9000578E3 /* camera_roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_roll.png; path = graphics/camera_roll.png; sourceTree = "<group>"; };
+		A6F6678E1490749B000578E3 /* birdbookbanner_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdbookbanner_back.png; sourceTree = "<group>"; };
+		A6F667981490771D000578E3 /* Bird_SpotterDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bird_SpotterDB.sqlite; sourceTree = "<group>"; };
+		A6F667AC14909D02000578E3 /* American_Black_Vulture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = American_Black_Vulture.mp3; path = "Bird Audio/American_Black_Vulture.mp3"; sourceTree = "<group>"; };
+		A6F667AD14909D02000578E3 /* Aplomado_Falcon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Aplomado_Falcon.mp3; path = "Bird Audio/Aplomado_Falcon.mp3"; sourceTree = "<group>"; };
+		A6F667AE14909D02000578E3 /* Bald_Eagle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bald_Eagle.mp3; path = "Bird Audio/Bald_Eagle.mp3"; sourceTree = "<group>"; };
+		A6F667AF14909D02000578E3 /* Black-capped_Vireo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Black-capped_Vireo.mp3"; path = "Bird Audio/Black-capped_Vireo.mp3"; sourceTree = "<group>"; };
+		A6F667B014909D02000578E3 /* Brown_Pelican.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Brown_Pelican.mp3; path = "Bird Audio/Brown_Pelican.mp3"; sourceTree = "<group>"; };
+		A6F667B114909D02000578E3 /* Golden-cheeked_Warbler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Golden-cheeked_Warbler.mp3"; path = "Bird Audio/Golden-cheeked_Warbler.mp3"; sourceTree = "<group>"; };
+		A6F667B214909D02000578E3 /* Great_Blue_Heron.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Great_Blue_Heron.mp3; path = "Bird Audio/Great_Blue_Heron.mp3"; sourceTree = "<group>"; };
+		A6F667B314909D02000578E3 /* Interior_Least_Tern.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Interior_Least_Tern.mp3; path = "Bird Audio/Interior_Least_Tern.mp3"; sourceTree = "<group>"; };
+		A6F667B414909D02000578E3 /* Little_Blue_Heron.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Little_Blue_Heron.mp3; path = "Bird Audio/Little_Blue_Heron.mp3"; sourceTree = "<group>"; };
+		A6F667B514909D02000578E3 /* Mexican_Spotted_Owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mexican_Spotted_Owl.mp3; path = "Bird Audio/Mexican_Spotted_Owl.mp3"; sourceTree = "<group>"; };
+		A6F667B614909D02000578E3 /* Northern_Shoveler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Northern_Shoveler.mp3; path = "Bird Audio/Northern_Shoveler.mp3"; sourceTree = "<group>"; };
+		A6F667B714909D02000578E3 /* Piping_Plover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Piping_Plover.mp3; path = "Bird Audio/Piping_Plover.mp3"; sourceTree = "<group>"; };
+		A6F667B814909D02000578E3 /* Red-cockaded_Woodpecker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Red-cockaded_Woodpecker.mp3"; path = "Bird Audio/Red-cockaded_Woodpecker.mp3"; sourceTree = "<group>"; };
+		A6F667B914909D02000578E3 /* Reddish_Egret.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Reddish_Egret.mp3; path = "Bird Audio/Reddish_Egret.mp3"; sourceTree = "<group>"; };
+		A6F667BA14909D02000578E3 /* Roseate_Spoonbill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Roseate_Spoonbill.mp3; path = "Bird Audio/Roseate_Spoonbill.mp3"; sourceTree = "<group>"; };
+		A6F667BB14909D02000578E3 /* Swallow_Tailed_Kite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Swallow_Tailed_Kite.mp3; path = "Bird Audio/Swallow_Tailed_Kite.mp3"; sourceTree = "<group>"; };
+		A6F667BC14909D02000578E3 /* White_Faced_Ibis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = White_Faced_Ibis.mp3; path = "Bird Audio/White_Faced_Ibis.mp3"; sourceTree = "<group>"; };
+		A6F667BD14909D02000578E3 /* White-tailed_Hawk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "White-tailed_Hawk.mp3"; path = "Bird Audio/White-tailed_Hawk.mp3"; sourceTree = "<group>"; };
+		A6F667BE14909D02000578E3 /* Whopping_Crane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Whopping_Crane.mp3; path = "Bird Audio/Whopping_Crane.mp3"; sourceTree = "<group>"; };
+		AF67F3271446336C00CE57B4 /* BirdBookCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdBookCellViewController.h; path = ViewControlers/BirdBookCellViewController.h; sourceTree = "<group>"; };
+		AF67F3281446336C00CE57B4 /* BirdBookCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdBookCellViewController.m; path = ViewControlers/BirdBookCellViewController.m; sourceTree = "<group>"; };
+		AF67F32B1446342000CE57B4 /* BirdBookCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BirdBookCellView.xib; path = ViewControlers/BirdBookCellView.xib; sourceTree = "<group>"; };
+		AF67F32E1446373900CE57B4 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird1.png; path = images/bird1.png; sourceTree = "<group>"; };
+		AF67F32F1446373900CE57B4 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird2.png; path = images/bird2.png; sourceTree = "<group>"; };
+		AF67F3301446373900CE57B4 /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bird3.png; path = images/bird3.png; sourceTree = "<group>"; };
+		F50A3EE714680148001D6814 /* galleryBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galleryBanner.png; path = graphics/galleryBanner.png; sourceTree = "<group>"; };
+		F50A3EEA14680148001D6814 /* toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toolbar.png; path = graphics/toolbar.png; sourceTree = "<group>"; };
+		F50F88EE146B6A4C0061743A /* aplomado_falcon_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aplomado_falcon_00.png; sourceTree = "<group>"; };
+		F50F88F0146B6A4C0061743A /* black_capped_vireo_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_capped_vireo_00.png; sourceTree = "<group>"; };
+		F50F88F1146B6A4C0061743A /* brown_pelican_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_pelican_00.png; sourceTree = "<group>"; };
+		F50F88F2146B6A4C0061743A /* eskimo_curlew_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eskimo_curlew_00.png; sourceTree = "<group>"; };
+		F50F88F3146B6A4D0061743A /* red-cockaded_woodpecker_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-cockaded_woodpecker_00.png"; sourceTree = "<group>"; };
+		F50F88F4146B6A4D0061743A /* reddish_egret_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddish_egret_00.png; sourceTree = "<group>"; };
+		F50F88F5146B6A4D0061743A /* swallow_tailed_kite_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swallow_tailed_kite_00.png; sourceTree = "<group>"; };
+		F50F88F6146B6A4D0061743A /* white_faced_hawk_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_faced_hawk_00.png; sourceTree = "<group>"; };
+		F50F88F7146B6A4D0061743A /* white_faced_ibis_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_faced_ibis_00.png; sourceTree = "<group>"; };
+		F50F8902146B6B960061743A /* bald_eagle_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bald_eagle_00.png; sourceTree = "<group>"; };
+		F516705D147BD52F000420ED /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F51EE0061487277000364DF6 /* Selecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selecter.h; sourceTree = "<group>"; };
+		F51EE0071487277000364DF6 /* Selecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selecter.m; sourceTree = "<group>"; };
+		F51EE0081487277000364DF6 /* Selecter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Selecter.xib; sourceTree = "<group>"; };
+		F53127AF14459DFB00FAD875 /* BirdSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53127B314459DFB00FAD875 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F53127B514459DFB00FAD875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F53127B714459DFB00FAD875 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F53127B914459DFB00FAD875 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F53127BD14459DFB00FAD875 /* BirdSpotter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirdSpotter-Info.plist"; sourceTree = "<group>"; };
+		F53127BF14459DFB00FAD875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F53127C114459DFB00FAD875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F53127C314459DFB00FAD875 /* BirdSpotter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BirdSpotter-Prefix.pch"; sourceTree = "<group>"; };
+		F53127C414459DFB00FAD875 /* BirdSpotterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdSpotterAppDelegate.h; sourceTree = "<group>"; };
+		F53127C514459DFB00FAD875 /* BirdSpotterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdSpotterAppDelegate.m; sourceTree = "<group>"; };
+		F53127C814459DFB00FAD875 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F53127D214459F7400FAD875 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		F53127D614459FF400FAD875 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		F53127DF1445A66E00FAD875 /* AlphaMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlphaMask.h; path = Custom_Button/AlphaMask.h; sourceTree = "<group>"; };
+		F53127E01445A66E00FAD875 /* AlphaMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlphaMask.m; path = Custom_Button/AlphaMask.m; sourceTree = "<group>"; };
+		F53127E11445A66E00FAD875 /* ClickThruButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClickThruButton.h; path = Custom_Button/ClickThruButton.h; sourceTree = "<group>"; };
+		F53127E21445A66E00FAD875 /* ClickThruButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClickThruButton.m; path = Custom_Button/ClickThruButton.m; sourceTree = "<group>"; };
+		F53127EE1445A9BD00FAD875 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ViewControlers/MenuViewController.h; sourceTree = "<group>"; };
+		F53127EF1445A9BD00FAD875 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ViewControlers/MenuViewController.m; sourceTree = "<group>"; };
+		F53127F01445A9BD00FAD875 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = ViewControlers/MenuViewController.xib; sourceTree = "<group>"; };
+		F531280C1445D40300FAD875 /* lounge_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lounge_img.png; path = graphics/lounge_img.png; sourceTree = "<group>"; };
+		F531281F1445F2B800FAD875 /* BirdBookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdBookTableViewController.h; path = ViewControlers/BirdBookTableViewController.h; sourceTree = "<group>"; };
+		F53128201445F2B900FAD875 /* BirdBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdBookTableViewController.m; path = ViewControlers/BirdBookTableViewController.m; sourceTree = "<group>"; };
+		F53128211445F2B900FAD875 /* BirdBookTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BirdBookTableViewController.xib; path = ViewControlers/BirdBookTableViewController.xib; sourceTree = "<group>"; };
+		F53128281445F3B500FAD875 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		F531282B1445F54900FAD875 /* BirdProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdProfileModel.h; path = Models/BirdProfileModel.h; sourceTree = "<group>"; };
+		F531282C1445F54900FAD875 /* BirdProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BirdProfileModel.m; path = Models/BirdProfileModel.m; sourceTree = "<group>"; };
+		F531282E1445F60800FAD875 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bird.h; path = Models/Bird.h; sourceTree = "<group>"; };
+		F531282F1445F60800FAD875 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bird.m; path = Models/Bird.m; sourceTree = "<group>"; };
+		F54455DF149026CF008F3F18 /* active_home_birdbook_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = active_home_birdbook_button.png; sourceTree = "<group>"; };
+		F54455E0149026CF008F3F18 /* active_home_gallery_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = active_home_gallery_button.png; sourceTree = "<group>"; };
+		F54455E1149026D0008F3F18 /* active_home_hotspots_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = active_home_hotspots_button.png; sourceTree = "<group>"; };
+		F54455E3149026D1008F3F18 /* home_gallery_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_gallery_button.png; sourceTree = "<group>"; };
+		F54455E4149026D2008F3F18 /* home_hotspots_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_hotspots_button.png; sourceTree = "<group>"; };
+		F54455E5149026D3008F3F18 /* new_home_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_home_page.png; sourceTree = "<group>"; };
+		F54455ED1490291C008F3F18 /* home_birdbook_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_birdbook_button.png; sourceTree = "<group>"; };
+		F54455EF14902A78008F3F18 /* done_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done_button_active.png; sourceTree = "<group>"; };
+		F54455F014902A79008F3F18 /* done_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done_button.png; sourceTree = "<group>"; };
+		F54455F314903014008F3F18 /* backbutton_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton_active.png; sourceTree = "<group>"; };
+		F54455F414903015008F3F18 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		F54455F714903199008F3F18 /* birdProfileBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdProfileBanner.png; sourceTree = "<group>"; };
+		F565FA3D1458E3AF00C5231C /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		F565FA3E1458E3AF00C5231C /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		F565FA401458E5E900C5231C /* SectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionInfo.h; sourceTree = "<group>"; };
+		F565FA411458E5E900C5231C /* SectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionInfo.m; sourceTree = "<group>"; };
+		F565FA431458FE7600C5231C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F565FA4514590C3600C5231C /* carat-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "carat-open.png"; path = "graphics/carat-open.png"; sourceTree = "<group>"; };
+		F565FA4614590C3600C5231C /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carat.png; path = graphics/carat.png; sourceTree = "<group>"; };
+		F56FF0FF14504734005878AC /* GeoLocationHelperModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoLocationHelperModel.h; path = Models/GeoLocationHelperModel.h; sourceTree = "<group>"; };
+		F56FF10014504734005878AC /* GeoLocationHelperModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoLocationHelperModel.m; path = Models/GeoLocationHelperModel.m; sourceTree = "<group>"; };
+		F56FF103145048BB005878AC /* HotSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotSpot.h; path = Models/HotSpot.h; sourceTree = "<group>"; };
+		F56FF104145048BB005878AC /* HotSpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotSpot.m; path = Models/HotSpot.m; sourceTree = "<group>"; };
+		F58B76AB144F96C6005C5D3C /* HotspotMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotspotMapViewController.h; path = ViewControlers/HotspotMapViewController.h; sourceTree = "<group>"; };
+		F58B76AC144F96C6005C5D3C /* HotspotMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotspotMapViewController.m; path = ViewControlers/HotspotMapViewController.m; sourceTree = "<group>"; };
+		F58B76AD144F96C6005C5D3C /* HotspotMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HotspotMapViewController.xib; path = ViewControlers/HotspotMapViewController.xib; sourceTree = "<group>"; };
+		F58B76C9144FD92F005C5D3C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F58B76D0144FDF81005C5D3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F58B76D5144FE014005C5D3C /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		F58B76D6144FE015005C5D3C /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		F5A52B63144DE967009EC088 /* UserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferences.h; sourceTree = "<group>"; };
+		F5A52B64144DE967009EC088 /* UserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferences.m; sourceTree = "<group>"; };
+		F5D26DDF146AA05B00C7DEBE /* aplomado_falcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aplomado_falcon.png; sourceTree = "<group>"; };
+		F5D26DE2146AA06700C7DEBE /* bald_eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bald_eagle.png; sourceTree = "<group>"; };
+		F5D26DE4146AA07600C7DEBE /* black_capped_vireo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_capped_vireo.png; sourceTree = "<group>"; };
+		F5D26DE6146AA07F00C7DEBE /* brown_pelican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_pelican.png; sourceTree = "<group>"; };
+		F5D26DE8146AA08C00C7DEBE /* eskimo_curlew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eskimo_curlew.png; sourceTree = "<group>"; };
+		F5D26DEA146AA09500C7DEBE /* red-cockaded_woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-cockaded_woodpecker.png"; sourceTree = "<group>"; };
+		F5D26DEC146AA09F00C7DEBE /* reddish_egret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddish_egret.png; sourceTree = "<group>"; };
+		F5D26DEE146AA0AB00C7DEBE /* swallow_tailed_kite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swallow_tailed_kite.png; sourceTree = "<group>"; };
+		F5D26DF0146AA0B700C7DEBE /* white_faced_ibis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_faced_ibis.png; sourceTree = "<group>"; };
+		F5D26DF2146AA0C100C7DEBE /* white_faced_hawk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_faced_hawk.png; sourceTree = "<group>"; };
+		F5E05F791446A0C6002451DD /* American_black_Vulture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = American_black_Vulture.png; sourceTree = "<group>"; };
+		F5E05F7A1446A0C6002451DD /* Golden_cheeked_Warbler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Golden_cheeked_Warbler.png; sourceTree = "<group>"; };
+		F5E05F7B1446A0C6002451DD /* Great_Blue_Heron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Great_Blue_Heron.png; sourceTree = "<group>"; };
+		F5E05F7C1446A0C6002451DD /* Interior_least_tern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interior_least_tern.png; sourceTree = "<group>"; };
+		F5E05F7D1446A0C6002451DD /* Little_Blue_Heron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Little_Blue_Heron.png; sourceTree = "<group>"; };
+		F5E05F7E1446A0C6002451DD /* Mexican_Spotted_owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexican_Spotted_owl.png; sourceTree = "<group>"; };
+		F5E05F7F1446A0C6002451DD /* Piping_plover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Piping_plover.png; sourceTree = "<group>"; };
+		F5E05F801446A0C6002451DD /* Rose-throated_becard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rose-throated_becard.png"; sourceTree = "<group>"; };
+		F5E05F811446A0C6002451DD /* Roseate_Spoonbill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Roseate_Spoonbill.png; sourceTree = "<group>"; };
+		F5E05F821446A0C6002451DD /* Whooping_Crane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whooping_Crane.png; sourceTree = "<group>"; };
+		F5E05F921446EA83002451DD /* becard_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = becard_prof.png; sourceTree = "<group>"; };
+		F5E05F931446EA83002451DD /* great_heron_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = great_heron_prof.png; sourceTree = "<group>"; };
+		F5E05F941446EA83002451DD /* heron_little_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heron_little_prof.png; sourceTree = "<group>"; };
+		F5E05F951446EA83002451DD /* interior_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interior_prof.png; sourceTree = "<group>"; };
+		F5E05F961446EA83002451DD /* owl_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = owl_prof.png; sourceTree = "<group>"; };
+		F5E05F971446EA83002451DD /* power_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_prof.png; sourceTree = "<group>"; };
+		F5E05F981446EA83002451DD /* spoonbill_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spoonbill_prof.png; sourceTree = "<group>"; };
+		F5E05F991446EA83002451DD /* vulture_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vulture_prof.png; sourceTree = "<group>"; };
+		F5E05F9A1446EA83002451DD /* warbler_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warbler_prof.png; sourceTree = "<group>"; };
+		F5E05F9B1446EA83002451DD /* whooping_prof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whooping_prof.png; sourceTree = "<group>"; };
+		F5E262A8148DDCA20025F032 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5E262B5148DDDDA0025F032 /* no audio */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no audio"; sourceTree = "<group>"; };
+		F5E262E6148E95010025F032 /* australian_pelican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australian_pelican.png; sourceTree = "<group>"; };
+		F5E262E7148E95010025F032 /* black_kite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_kite.png; sourceTree = "<group>"; };
+		F5E262E8148E95010025F032 /* black_swan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_swan.png; sourceTree = "<group>"; };
+		F5E262E9148E95010025F032 /* crowned_eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crowned_eagle.png; sourceTree = "<group>"; };
+		F5E262EA148E95010025F032 /* egyptian_vulture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egyptian_vulture.png; sourceTree = "<group>"; };
+		F5E262EB148E95010025F032 /* flightless_cormorant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flightless_cormorant.png; sourceTree = "<group>"; };
+		F5E262EC148E95010025F032 /* king_vulture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_vulture.png; sourceTree = "<group>"; };
+		F5E262ED148E95010025F032 /* lesser_flamingo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lesser_flamingo.png; sourceTree = "<group>"; };
+		F5E262EE148E95010025F032 /* magpie_goose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magpie_goose.png; sourceTree = "<group>"; };
+		F5E262EF148E95010025F032 /* northern_shoveler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = northern_shoveler.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F53127AC14459DFB00FAD875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E262A9148DDCA30025F032 /* AVFoundation.framework in Frameworks */,
+				F565FA441458FE7600C5231C /* QuartzCore.framework in Frameworks */,
+				F58B76D1144FDF81005C5D3C /* CoreLocation.framework in Frameworks */,
+				F58B76CA144FD930005C5D3C /* MapKit.framework in Frameworks */,
+				F53128291445F3B500FAD875 /* libsqlite3.0.dylib in Frameworks */,
+				F53127B414459DFB00FAD875 /* UIKit.framework in Frameworks */,
+				F53127B614459DFB00FAD875 /* Foundation.framework in Frameworks */,
+				F53127B814459DFB00FAD875 /* CoreGraphics.framework in Frameworks */,
+				F53127BA14459DFB00FAD875 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66FEDC11484B4CC00F7FA30 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				A62A689E148D941900C22C67 /* american_vulture2_full.png */,
+				A6E7F701148D529800CC76C4 /* american_vulture1_full.png */,
+				A6E7F702148D529800CC76C4 /* american_vulture3_full.png */,
+				A6E7F703148D529800CC76C4 /* aplomado_falcon_00.png */,
+				A6E7F704148D529800CC76C4 /* aplomado_falcon_01.png */,
+				A6E7F705148D529800CC76C4 /* apolmado_falcon_02.png */,
+				A6E7F706148D529800CC76C4 /* aplomado_falcon_03.png */,
+				A6E7F707148D529800CC76C4 /* bald_eagle_00.png */,
+				A6E7F708148D529800CC76C4 /* bald_eagle_01.png */,
+				A6E7F709148D529800CC76C4 /* bald_eagle_02.png */,
+				A6E7F70A148D529800CC76C4 /* bald_eagle_03.png */,
+				A6E7F70B148D529800CC76C4 /* black_capped_vireo_00.png */,
+				A6E7F70C148D529800CC76C4 /* black_capped_vireo_01.png */,
+				A6E7F70D148D529800CC76C4 /* black_capped_vireo_02.png */,
+				A6E7F70E148D529800CC76C4 /* black_capped_vireo_03.png */,
+				A6E7F70F148D529800CC76C4 /* brown_pelican_00.png */,
+				A6E7F710148D529800CC76C4 /* brown_pelican_01.png */,
+				A6E7F711148D529800CC76C4 /* brown_pelican_02.png */,
+				A6E7F712148D529800CC76C4 /* brown_pelican_03.png */,
+				A6E7F713148D529800CC76C4 /* eskimo_curlew_00.png */,
+				A6E7F714148D529800CC76C4 /* eskimo_curlew_01.png */,
+				A6E7F715148D529800CC76C4 /* eskimo_curlew_02.png */,
+				A6E7F716148D529800CC76C4 /* eskimo_curlew_03.png */,
+				A6E7F717148D529800CC76C4 /* golden_warbler1_full.png */,
+				A6E7F718148D529800CC76C4 /* golden_warbler2_full.png */,
+				A6E7F719148D529800CC76C4 /* golden_warbler3_full.png */,
+				A6E7F71A148D529800CC76C4 /* golden_warbler4_full.png */,
+				A6E7F71B148D529800CC76C4 /* great_blue_heron1_full.png */,
+				A6E7F71C148D529800CC76C4 /* great_blue_heron2_full.png */,
+				A6E7F71D148D529800CC76C4 /* great_blue_heron3_full.png */,
+				A6E7F71E148D529800CC76C4 /* great_blue_heron4_full.png */,
+				A6E7F71F148D529800CC76C4 /* inter_least_tern1_full.png */,
+				A6E7F720148D529800CC76C4 /* interior_least_tern2_full.png */,
+				A6E7F721148D529800CC76C4 /* interior_least_tern3_full.png */,
+				A6E7F722148D529800CC76C4 /* interior_least_tern4_full.png */,
+				A6E7F723148D529800CC76C4 /* little_blue_heron1_full.png */,
+				A6E7F724148D529800CC76C4 /* little_blue_heron2_full.png */,
+				A6E7F725148D529800CC76C4 /* little_blue_heron3_full.png */,
+				A6E7F726148D529800CC76C4 /* little_blue_heron4_full.png */,
+				A6E7F727148D529800CC76C4 /* mexican_spotted_owl1_full.png */,
+				A6E7F728148D529800CC76C4 /* mexican_spotted_owl2_full.png */,
+				A6E7F729148D529800CC76C4 /* mexican_spotted_owl3_full.png */,
+				A6E7F72A148D529800CC76C4 /* mexican_spotted_owl4_full.png */,
+				A6E7F72B148D529800CC76C4 /* piping_plover1_full.png */,
+				A6E7F72C148D529800CC76C4 /* piping_plover2_full.png */,
+				A6E7F72D148D529800CC76C4 /* piping_plover3_full.png */,
+				A6E7F72E148D529800CC76C4 /* piping_plover4_full.png */,
+				A6E7F72F148D529800CC76C4 /* piping_plover5_full.png */,
+				A6E7F730148D529800CC76C4 /* red-cockaded_woodpecker_00.png */,
+				A6E7F731148D529800CC76C4 /* red-cockaded_woodpecker_01.png */,
+				A6E7F732148D529800CC76C4 /* red-cockaded_woodpecker_02.png */,
+				A6E7F733148D529800CC76C4 /* red-cockaded_woodpecker_03.png */,
+				A6E7F734148D529800CC76C4 /* reddish_egret_00.png */,
+				A6E7F735148D529800CC76C4 /* reddish_egret_01.png */,
+				A6E7F736148D529800CC76C4 /* reddish_egret_02.png */,
+				A6E7F737148D529800CC76C4 /* reddish_egret_03.png */,
+				A6E7F738148D529800CC76C4 /* rose_throated_becard1_full.png */,
+				A6E7F739148D529800CC76C4 /* rose_throated_becard2_full.png */,
+				A6E7F73A148D529800CC76C4 /* rose_throated_becard3_full.png */,
+				A6E7F73B148D529800CC76C4 /* rose_throated_becard4_full.png */,
+				A6E7F73C148D529800CC76C4 /* roseate_spoonbill1_full.png */,
+				A6E7F73D148D529800CC76C4 /* roseate_spoonbill2_full.png */,
+				A6E7F73E148D529800CC76C4 /* roseate_spoonbill3_full.png */,
+				A6E7F73F148D529800CC76C4 /* roseate_spoonbill4_full.png */,
+				A6E7F740148D529800CC76C4 /* swallow_tailed_kite_00.png */,
+				A6E7F741148D529800CC76C4 /* swallow_tailed_kite_01.png */,
+				A6E7F742148D529800CC76C4 /* swallow_tailed_kite_02.png */,
+				A6E7F743148D529800CC76C4 /* swallow_tailed_kite_03.png */,
+				A6E7F744148D529800CC76C4 /* white_faced_hawk_00.png */,
+				A6E7F745148D529800CC76C4 /* white_faced_hawk_01.png */,
+				A6E7F746148D529800CC76C4 /* white_faced_hawk_02.png */,
+				A6E7F747148D529800CC76C4 /* white_faced_hawk_03.png */,
+				A6E7F748148D529800CC76C4 /* white_faced_ibis_00.png */,
+				A6E7F749148D529800CC76C4 /* white_faced_ibis_01.png */,
+				A6E7F74A148D529800CC76C4 /* white_faced_ibis_02.png */,
+				A6E7F74B148D529800CC76C4 /* white_faced_ibis_03.png */,
+				A6E7F74C148D529800CC76C4 /* whooping_crane1_full.png */,
+				A6E7F74D148D529800CC76C4 /* whooping_crane2_full.png */,
+				A6E7F74E148D529800CC76C4 /* whooping_crane3_full.png */,
+				A6E7F74F148D529800CC76C4 /* whooping_crane4_full.png */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		A6F667AA14909CE9000578E3 /* Bird Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A6F667AC14909D02000578E3 /* American_Black_Vulture.mp3 */,
+				A6F667AD14909D02000578E3 /* Aplomado_Falcon.mp3 */,
+				A6F667AE14909D02000578E3 /* Bald_Eagle.mp3 */,
+				A6F667AF14909D02000578E3 /* Black-capped_Vireo.mp3 */,
+				A6F667B014909D02000578E3 /* Brown_Pelican.mp3 */,
+				A6F667B114909D02000578E3 /* Golden-cheeked_Warbler.mp3 */,
+				A6F667B214909D02000578E3 /* Great_Blue_Heron.mp3 */,
+				A6F667B314909D02000578E3 /* Interior_Least_Tern.mp3 */,
+				A6F667B414909D02000578E3 /* Little_Blue_Heron.mp3 */,
+				A6F667B514909D02000578E3 /* Mexican_Spotted_Owl.mp3 */,
+				A6F667B614909D02000578E3 /* Northern_Shoveler.mp3 */,
+				A6F667B714909D02000578E3 /* Piping_Plover.mp3 */,
+				A6F667B814909D02000578E3 /* Red-cockaded_Woodpecker.mp3 */,
+				A6F667B914909D02000578E3 /* Reddish_Egret.mp3 */,
+				A6F667BA14909D02000578E3 /* Roseate_Spoonbill.mp3 */,
+				A6F667BB14909D02000578E3 /* Swallow_Tailed_Kite.mp3 */,
+				A6F667BC14909D02000578E3 /* White_Faced_Ibis.mp3 */,
+				A6F667BD14909D02000578E3 /* White-tailed_Hawk.mp3 */,
+				A6F667BE14909D02000578E3 /* Whopping_Crane.mp3 */,
+			);
+			name = "Bird Audio";
+			sourceTree = "<group>";
+		};
+		AF67F32D144636FA00CE57B4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A66FEDC11484B4CC00F7FA30 /* Gallery */,
+				F5E05F911446EA83002451DD /* Profile */,
+				F5E05F781446A0C6002451DD /* BirdBook */,
+				AF67F32E1446373900CE57B4 /* bird1.png */,
+				AF67F32F1446373900CE57B4 /* bird2.png */,
+				AF67F3301446373900CE57B4 /* bird3.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F53127A414459DFA00FAD875 = {
+			isa = PBXGroup;
+			children = (
+				F516705D147BD52F000420ED /* Settings.bundle */,
+				F53127BB14459DFB00FAD875 /* BirdSpotter */,
+				F53127B214459DFB00FAD875 /* Frameworks */,
+				F53127B014459DFB00FAD875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F53127B014459DFB00FAD875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53127AF14459DFB00FAD875 /* BirdSpotter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53127B214459DFB00FAD875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53128281445F3B500FAD875 /* libsqlite3.0.dylib */,
+				F5E262A8148DDCA20025F032 /* AVFoundation.framework */,
+				F565FA431458FE7600C5231C /* QuartzCore.framework */,
+				F58B76D0144FDF81005C5D3C /* CoreLocation.framework */,
+				F58B76C9144FD92F005C5D3C /* MapKit.framework */,
+				F53127B314459DFB00FAD875 /* UIKit.framework */,
+				F53127B514459DFB00FAD875 /* Foundation.framework */,
+				F53127B714459DFB00FAD875 /* CoreGraphics.framework */,
+				F53127B914459DFB00FAD875 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F53127BB14459DFB00FAD875 /* BirdSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				A6F667AA14909CE9000578E3 /* Bird Audio */,
+				AF67F32D144636FA00CE57B4 /* Images */,
+				F531282A1445F51400FAD875 /* Models */,
+				F53128101445D4B700FAD875 /* Views */,
+				F53127F31445D31800FAD875 /* Graphics */,
+				F53127ED1445A96700FAD875 /* ViewControllers */,
+				F53127E51445A67600FAD875 /* Helpers */,
+				F53127DA1445A02900FAD875 /* Resources */,
+				F53127E61445A6D900FAD875 /* Delegates */,
+				F53127BC14459DFB00FAD875 /* Supporting Files */,
+			);
+			path = BirdSpotter;
+			sourceTree = "<group>";
+		};
+		F53127BC14459DFB00FAD875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53127BD14459DFB00FAD875 /* BirdSpotter-Info.plist */,
+				F53127BE14459DFB00FAD875 /* InfoPlist.strings */,
+				F53127C114459DFB00FAD875 /* main.m */,
+				F53127C314459DFB00FAD875 /* BirdSpotter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53127DA1445A02900FAD875 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6F667981490771D000578E3 /* Bird_SpotterDB.sqlite */,
+				F5E262B5148DDDDA0025F032 /* no audio */,
+				F53127D614459FF400FAD875 /* Default.png */,
+				F53127D214459F7400FAD875 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F53127E51445A67600FAD875 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F53127DF1445A66E00FAD875 /* AlphaMask.h */,
+				F53127E01445A66E00FAD875 /* AlphaMask.m */,
+				F53127E11445A66E00FAD875 /* ClickThruButton.h */,
+				F53127E21445A66E00FAD875 /* ClickThruButton.m */,
+				F5A52B63144DE967009EC088 /* UserPreferences.h */,
+				F5A52B64144DE967009EC088 /* UserPreferences.m */,
+				F58B76D5144FE014005C5D3C /* Location.h */,
+				F58B76D6144FE015005C5D3C /* Location.m */,
+				F565FA3D1458E3AF00C5231C /* SectionHeaderView.h */,
+				F565FA3E1458E3AF00C5231C /* SectionHeaderView.m */,
+				F565FA401458E5E900C5231C /* SectionInfo.h */,
+				F565FA411458E5E900C5231C /* SectionInfo.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F53127E61445A6D900FAD875 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F53127C414459DFB00FAD875 /* BirdSpotterAppDelegate.h */,
+				F53127C514459DFB00FAD875 /* BirdSpotterAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		F53127ED1445A96700FAD875 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6678114906F91000578E3 /* BirdProfileViewController.h */,
+				A6F6678214906F91000578E3 /* BirdProfileViewController.m */,
+				A6AB2BEF148F4A3600667652 /* MyView.h */,
+				A6AB2BF0148F4A3600667652 /* MyView.m */,
+				A66FEF0C1484BAA200F7FA30 /* ViewControllerForDuplicateEndCaps.h */,
+				A66FEF0D1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.m */,
+				A681B05D146750B50074EF41 /* PhotoGallery.h */,
+				A681B05E146750B50074EF41 /* PhotoGallery.m */,
+				F53127EE1445A9BD00FAD875 /* MenuViewController.h */,
+				F53127EF1445A9BD00FAD875 /* MenuViewController.m */,
+				F531281F1445F2B800FAD875 /* BirdBookTableViewController.h */,
+				F53128201445F2B900FAD875 /* BirdBookTableViewController.m */,
+				AF67F3271446336C00CE57B4 /* BirdBookCellViewController.h */,
+				AF67F3281446336C00CE57B4 /* BirdBookCellViewController.m */,
+				A6811BBE1465CEC500777017 /* MultipleViewController.h */,
+				A6811BBF1465CEC500777017 /* MultipleViewController.m */,
+				F58B76AB144F96C6005C5D3C /* HotspotMapViewController.h */,
+				F58B76AC144F96C6005C5D3C /* HotspotMapViewController.m */,
+				A6199A9A1482DD3700CAB750 /* CameraViewController.h */,
+				A6199A9B1482DD3700CAB750 /* CameraViewController.m */,
+				F51EE0061487277000364DF6 /* Selecter.h */,
+				F51EE0071487277000364DF6 /* Selecter.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F53127F31445D31800FAD875 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6678E1490749B000578E3 /* birdbookbanner_back.png */,
+				A6F6678A149071B9000578E3 /* camera_Roll_active.png */,
+				A6F6678B149071B9000578E3 /* camera_roll.png */,
+				A6F6678614906FDE000578E3 /* pause.png */,
+				A6F6678714906FDE000578E3 /* play.png */,
+				F54455F714903199008F3F18 /* birdProfileBanner.png */,
+				F54455F314903014008F3F18 /* backbutton_active.png */,
+				F54455F414903015008F3F18 /* backbutton.png */,
+				F54455EF14902A78008F3F18 /* done_button_active.png */,
+				F54455F014902A79008F3F18 /* done_button.png */,
+				F54455ED1490291C008F3F18 /* home_birdbook_button.png */,
+				F54455DF149026CF008F3F18 /* active_home_birdbook_button.png */,
+				F54455E0149026CF008F3F18 /* active_home_gallery_button.png */,
+				F54455E1149026D0008F3F18 /* active_home_hotspots_button.png */,
+				F54455E3149026D1008F3F18 /* home_gallery_button.png */,
+				F54455E4149026D2008F3F18 /* home_hotspots_button.png */,
+				F54455E5149026D3008F3F18 /* new_home_page.png */,
+				A659C20E148F174300ED3896 /* camera_button_active.png */,
+				A659C20F148F174300ED3896 /* camera_button.png */,
+				A659C1FA148F147A00ED3896 /* tb_birdbook_button_active.png */,
+				A659C1FB148F147B00ED3896 /* tb_birdbook_button.png */,
+				A659C1FC148F147B00ED3896 /* tb_camera_button_active.png */,
+				A659C1FD148F147B00ED3896 /* tb_camera_button.png */,
+				A659C1FE148F147C00ED3896 /* tb_gallery_button_active.png */,
+				A659C1FF148F147C00ED3896 /* tb_gallery_button.png */,
+				A659C200148F147C00ED3896 /* tb_home_button_active.png */,
+				A659C201148F147C00ED3896 /* tb_home_button.png */,
+				A659C202148F147C00ED3896 /* tb_search_button_active.png */,
+				A659C203148F147D00ED3896 /* tb_search_button.png */,
+				A659C1F8148F131700ED3896 /* new_gallery_topbar.png */,
+				A659C1F2148F065A00ED3896 /* backbutton_active.png */,
+				A659C1F3148F065A00ED3896 /* backbutton.png */,
+				F50A3EE714680148001D6814 /* galleryBanner.png */,
+				F50A3EEA14680148001D6814 /* toolbar.png */,
+				F565FA4514590C3600C5231C /* carat-open.png */,
+				F565FA4614590C3600C5231C /* carat.png */,
+				F531280C1445D40300FAD875 /* lounge_img.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		F53128101445D4B700FAD875 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6678314906F91000578E3 /* BirdProfileViewController.xib */,
+				A6AB2BF1148F4A3600667652 /* MyView.xib */,
+				A66FEF0E1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.xib */,
+				F58B76AD144F96C6005C5D3C /* HotspotMapViewController.xib */,
+				A681B05F146750B50074EF41 /* PhotoGallery.xib */,
+				F51EE0081487277000364DF6 /* Selecter.xib */,
+				F53127C714459DFB00FAD875 /* MainWindow.xib */,
+				AF67F32B1446342000CE57B4 /* BirdBookCellView.xib */,
+				F53127F01445A9BD00FAD875 /* MenuViewController.xib */,
+				A6811BC01465CEC500777017 /* MultipleViewController.xib */,
+				F53128211445F2B900FAD875 /* BirdBookTableViewController.xib */,
+				A6199A9C1482DD3700CAB750 /* CameraViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F531282A1445F51400FAD875 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F531282B1445F54900FAD875 /* BirdProfileModel.h */,
+				F531282C1445F54900FAD875 /* BirdProfileModel.m */,
+				F531282E1445F60800FAD875 /* Bird.h */,
+				F531282F1445F60800FAD875 /* Bird.m */,
+				F56FF0FF14504734005878AC /* GeoLocationHelperModel.h */,
+				F56FF10014504734005878AC /* GeoLocationHelperModel.m */,
+				F56FF103145048BB005878AC /* HotSpot.h */,
+				F56FF104145048BB005878AC /* HotSpot.m */,
+				A6ECA877148D48F70009F8D6 /* BirdGalleryModel.h */,
+				A6ECA878148D48F70009F8D6 /* BirdGalleryModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F5E05F781446A0C6002451DD /* BirdBook */ = {
+			isa = PBXGroup;
+			children = (
+				F50F8902146B6B960061743A /* bald_eagle_00.png */,
+				F50F88EE146B6A4C0061743A /* aplomado_falcon_00.png */,
+				F50F88F0146B6A4C0061743A /* black_capped_vireo_00.png */,
+				F50F88F1146B6A4C0061743A /* brown_pelican_00.png */,
+				F50F88F2146B6A4C0061743A /* eskimo_curlew_00.png */,
+				F50F88F3146B6A4D0061743A /* red-cockaded_woodpecker_00.png */,
+				F50F88F4146B6A4D0061743A /* reddish_egret_00.png */,
+				F50F88F5146B6A4D0061743A /* swallow_tailed_kite_00.png */,
+				F50F88F6146B6A4D0061743A /* white_faced_hawk_00.png */,
+				F50F88F7146B6A4D0061743A /* white_faced_ibis_00.png */,
+				F5E05F791446A0C6002451DD /* American_black_Vulture.png */,
+				F5E05F7A1446A0C6002451DD /* Golden_cheeked_Warbler.png */,
+				F5E05F7B1446A0C6002451DD /* Great_Blue_Heron.png */,
+				F5E05F7C1446A0C6002451DD /* Interior_least_tern.png */,
+				F5E05F7D1446A0C6002451DD /* Little_Blue_Heron.png */,
+				F5E05F7E1446A0C6002451DD /* Mexican_Spotted_owl.png */,
+				F5E05F7F1446A0C6002451DD /* Piping_plover.png */,
+				F5E05F801446A0C6002451DD /* Rose-throated_becard.png */,
+				F5E05F811446A0C6002451DD /* Roseate_Spoonbill.png */,
+				F5E05F821446A0C6002451DD /* Whooping_Crane.png */,
+			);
+			name = BirdBook;
+			path = images/BirdBook;
+			sourceTree = "<group>";
+		};
+		F5E05F911446EA83002451DD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F5E262E6148E95010025F032 /* australian_pelican.png */,
+				F5E262E7148E95010025F032 /* black_kite.png */,
+				F5E262E8148E95010025F032 /* black_swan.png */,
+				F5E262E9148E95010025F032 /* crowned_eagle.png */,
+				F5E262EA148E95010025F032 /* egyptian_vulture.png */,
+				F5E262EB148E95010025F032 /* flightless_cormorant.png */,
+				F5E262EC148E95010025F032 /* king_vulture.png */,
+				F5E262ED148E95010025F032 /* lesser_flamingo.png */,
+				F5E262EE148E95010025F032 /* magpie_goose.png */,
+				F5E262EF148E95010025F032 /* northern_shoveler.png */,
+				F5D26DF2146AA0C100C7DEBE /* white_faced_hawk.png */,
+				F5D26DF0146AA0B700C7DEBE /* white_faced_ibis.png */,
+				F5D26DEE146AA0AB00C7DEBE /* swallow_tailed_kite.png */,
+				F5D26DEC146AA09F00C7DEBE /* reddish_egret.png */,
+				F5D26DEA146AA09500C7DEBE /* red-cockaded_woodpecker.png */,
+				F5D26DE8146AA08C00C7DEBE /* eskimo_curlew.png */,
+				F5D26DE6146AA07F00C7DEBE /* brown_pelican.png */,
+				F5D26DE4146AA07600C7DEBE /* black_capped_vireo.png */,
+				F5D26DE2146AA06700C7DEBE /* bald_eagle.png */,
+				F5D26DDF146AA05B00C7DEBE /* aplomado_falcon.png */,
+				F5E05F921446EA83002451DD /* becard_prof.png */,
+				F5E05F931446EA83002451DD /* great_heron_prof.png */,
+				F5E05F941446EA83002451DD /* heron_little_prof.png */,
+				F5E05F951446EA83002451DD /* interior_prof.png */,
+				F5E05F961446EA83002451DD /* owl_prof.png */,
+				F5E05F971446EA83002451DD /* power_prof.png */,
+				F5E05F981446EA83002451DD /* spoonbill_prof.png */,
+				F5E05F991446EA83002451DD /* vulture_prof.png */,
+				F5E05F9A1446EA83002451DD /* warbler_prof.png */,
+				F5E05F9B1446EA83002451DD /* whooping_prof.png */,
+			);
+			name = Profile;
+			path = images/Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53127AE14459DFB00FAD875 /* BirdSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53127CF14459DFB00FAD875 /* Build configuration list for PBXNativeTarget "BirdSpotter" */;
+			buildPhases = (
+				F53127AB14459DFB00FAD875 /* Sources */,
+				F53127AC14459DFB00FAD875 /* Frameworks */,
+				F53127AD14459DFB00FAD875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdSpotter;
+			productName = BirdSpotter;
+			productReference = F53127AF14459DFB00FAD875 /* BirdSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F53127A614459DFA00FAD875 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F53127A914459DFA00FAD875 /* Build configuration list for PBXProject "BirdSpotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F53127A414459DFA00FAD875;
+			productRefGroup = F53127B014459DFB00FAD875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53127AE14459DFB00FAD875 /* BirdSpotter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F53127AD14459DFB00FAD875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53127C014459DFB00FAD875 /* InfoPlist.strings in Resources */,
+				F53127C914459DFB00FAD875 /* MainWindow.xib in Resources */,
+				F53127D314459F7400FAD875 /* icon.png in Resources */,
+				F53127D714459FF400FAD875 /* Default.png in Resources */,
+				F53127F21445A9BD00FAD875 /* MenuViewController.xib in Resources */,
+				F531280E1445D40300FAD875 /* lounge_img.png in Resources */,
+				F53128231445F2B900FAD875 /* BirdBookTableViewController.xib in Resources */,
+				AF67F32C1446342000CE57B4 /* BirdBookCellView.xib in Resources */,
+				AF67F3311446373900CE57B4 /* bird1.png in Resources */,
+				AF67F3321446373900CE57B4 /* bird2.png in Resources */,
+				AF67F3331446373900CE57B4 /* bird3.png in Resources */,
+				F5E05F831446A0C6002451DD /* American_black_Vulture.png in Resources */,
+				F5E05F841446A0C6002451DD /* Golden_cheeked_Warbler.png in Resources */,
+				F5E05F851446A0C6002451DD /* Great_Blue_Heron.png in Resources */,
+				F5E05F861446A0C6002451DD /* Interior_least_tern.png in Resources */,
+				F5E05F871446A0C6002451DD /* Little_Blue_Heron.png in Resources */,
+				F5E05F881446A0C6002451DD /* Mexican_Spotted_owl.png in Resources */,
+				F5E05F891446A0C6002451DD /* Piping_plover.png in Resources */,
+				F5E05F8A1446A0C6002451DD /* Rose-throated_becard.png in Resources */,
+				F5E05F8B1446A0C6002451DD /* Roseate_Spoonbill.png in Resources */,
+				F5E05F8C1446A0C6002451DD /* Whooping_Crane.png in Resources */,
+				F5E05F9C1446EA83002451DD /* becard_prof.png in Resources */,
+				F5E05F9D1446EA83002451DD /* great_heron_prof.png in Resources */,
+				F5E05F9E1446EA83002451DD /* heron_little_prof.png in Resources */,
+				F5E05F9F1446EA83002451DD /* interior_prof.png in Resources */,
+				F5E05FA01446EA83002451DD /* owl_prof.png in Resources */,
+				F5E05FA11446EA83002451DD /* power_prof.png in Resources */,
+				F5E05FA21446EA83002451DD /* spoonbill_prof.png in Resources */,
+				F5E05FA31446EA83002451DD /* vulture_prof.png in Resources */,
+				F5E05FA41446EA83002451DD /* warbler_prof.png in Resources */,
+				F5E05FA51446EA83002451DD /* whooping_prof.png in Resources */,
+				F58B76AF144F96C6005C5D3C /* HotspotMapViewController.xib in Resources */,
+				F565FA4714590C3600C5231C /* carat-open.png in Resources */,
+				F565FA4814590C3600C5231C /* carat.png in Resources */,
+				A6811BC21465CEC500777017 /* MultipleViewController.xib in Resources */,
+				A681B061146750B50074EF41 /* PhotoGallery.xib in Resources */,
+				F50A3EEE14680148001D6814 /* galleryBanner.png in Resources */,
+				F50A3EF114680148001D6814 /* toolbar.png in Resources */,
+				F5D26DE0146AA05B00C7DEBE /* aplomado_falcon.png in Resources */,
+				F5D26DE3146AA06700C7DEBE /* bald_eagle.png in Resources */,
+				F5D26DE5146AA07600C7DEBE /* black_capped_vireo.png in Resources */,
+				F5D26DE7146AA07F00C7DEBE /* brown_pelican.png in Resources */,
+				F5D26DE9146AA08C00C7DEBE /* eskimo_curlew.png in Resources */,
+				F5D26DEB146AA09500C7DEBE /* red-cockaded_woodpecker.png in Resources */,
+				F5D26DED146AA09F00C7DEBE /* reddish_egret.png in Resources */,
+				F5D26DEF146AA0AB00C7DEBE /* swallow_tailed_kite.png in Resources */,
+				F5D26DF1146AA0B700C7DEBE /* white_faced_ibis.png in Resources */,
+				F5D26DF3146AA0C100C7DEBE /* white_faced_hawk.png in Resources */,
+				F50F88F8146B6A4E0061743A /* aplomado_falcon_00.png in Resources */,
+				F50F88FA146B6A4E0061743A /* black_capped_vireo_00.png in Resources */,
+				F50F88FB146B6A4E0061743A /* brown_pelican_00.png in Resources */,
+				F50F88FC146B6A4E0061743A /* eskimo_curlew_00.png in Resources */,
+				F50F88FD146B6A4E0061743A /* red-cockaded_woodpecker_00.png in Resources */,
+				F50F88FE146B6A4E0061743A /* reddish_egret_00.png in Resources */,
+				F50F88FF146B6A4E0061743A /* swallow_tailed_kite_00.png in Resources */,
+				F50F8900146B6A4E0061743A /* white_faced_hawk_00.png in Resources */,
+				F50F8901146B6A4E0061743A /* white_faced_ibis_00.png in Resources */,
+				F50F8903146B6B970061743A /* bald_eagle_00.png in Resources */,
+				F516705E147BD52F000420ED /* Settings.bundle in Resources */,
+				A6199A9E1482DD3700CAB750 /* CameraViewController.xib in Resources */,
+				A66FEF101484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.xib in Resources */,
+				F51EE00A1487277000364DF6 /* Selecter.xib in Resources */,
+				A6E7F750148D529800CC76C4 /* american_vulture1_full.png in Resources */,
+				A6E7F751148D529800CC76C4 /* american_vulture3_full.png in Resources */,
+				A6E7F752148D529800CC76C4 /* aplomado_falcon_00.png in Resources */,
+				A6E7F753148D529800CC76C4 /* aplomado_falcon_01.png in Resources */,
+				A6E7F754148D529800CC76C4 /* apolmado_falcon_02.png in Resources */,
+				A6E7F755148D529800CC76C4 /* aplomado_falcon_03.png in Resources */,
+				A6E7F756148D529800CC76C4 /* bald_eagle_00.png in Resources */,
+				A6E7F757148D529800CC76C4 /* bald_eagle_01.png in Resources */,
+				A6E7F758148D529800CC76C4 /* bald_eagle_02.png in Resources */,
+				A6E7F759148D529800CC76C4 /* bald_eagle_03.png in Resources */,
+				A6E7F75A148D529800CC76C4 /* black_capped_vireo_00.png in Resources */,
+				A6E7F75B148D529800CC76C4 /* black_capped_vireo_01.png in Resources */,
+				A6E7F75C148D529800CC76C4 /* black_capped_vireo_02.png in Resources */,
+				A6E7F75D148D529800CC76C4 /* black_capped_vireo_03.png in Resources */,
+				A6E7F75E148D529800CC76C4 /* brown_pelican_00.png in Resources */,
+				A6E7F75F148D529800CC76C4 /* brown_pelican_01.png in Resources */,
+				A6E7F760148D529800CC76C4 /* brown_pelican_02.png in Resources */,
+				A6E7F761148D529800CC76C4 /* brown_pelican_03.png in Resources */,
+				A6E7F762148D529800CC76C4 /* eskimo_curlew_00.png in Resources */,
+				A6E7F763148D529800CC76C4 /* eskimo_curlew_01.png in Resources */,
+				A6E7F764148D529800CC76C4 /* eskimo_curlew_02.png in Resources */,
+				A6E7F765148D529800CC76C4 /* eskimo_curlew_03.png in Resources */,
+				A6E7F766148D529800CC76C4 /* golden_warbler1_full.png in Resources */,
+				A6E7F767148D529800CC76C4 /* golden_warbler2_full.png in Resources */,
+				A6E7F768148D529800CC76C4 /* golden_warbler3_full.png in Resources */,
+				A6E7F769148D529800CC76C4 /* golden_warbler4_full.png in Resources */,
+				A6E7F76A148D529800CC76C4 /* great_blue_heron1_full.png in Resources */,
+				A6E7F76B148D529800CC76C4 /* great_blue_heron2_full.png in Resources */,
+				A6E7F76C148D529800CC76C4 /* great_blue_heron3_full.png in Resources */,
+				A6E7F76D148D529800CC76C4 /* great_blue_heron4_full.png in Resources */,
+				A6E7F76E148D529800CC76C4 /* inter_least_tern1_full.png in Resources */,
+				A6E7F76F148D529800CC76C4 /* interior_least_tern2_full.png in Resources */,
+				A6E7F770148D529800CC76C4 /* interior_least_tern3_full.png in Resources */,
+				A6E7F771148D529800CC76C4 /* interior_least_tern4_full.png in Resources */,
+				A6E7F772148D529800CC76C4 /* little_blue_heron1_full.png in Resources */,
+				A6E7F773148D529800CC76C4 /* little_blue_heron2_full.png in Resources */,
+				A6E7F774148D529800CC76C4 /* little_blue_heron3_full.png in Resources */,
+				A6E7F775148D529800CC76C4 /* little_blue_heron4_full.png in Resources */,
+				A6E7F776148D529800CC76C4 /* mexican_spotted_owl1_full.png in Resources */,
+				A6E7F777148D529800CC76C4 /* mexican_spotted_owl2_full.png in Resources */,
+				A6E7F778148D529800CC76C4 /* mexican_spotted_owl3_full.png in Resources */,
+				A6E7F779148D529800CC76C4 /* mexican_spotted_owl4_full.png in Resources */,
+				A6E7F77A148D529800CC76C4 /* piping_plover1_full.png in Resources */,
+				A6E7F77B148D529800CC76C4 /* piping_plover2_full.png in Resources */,
+				A6E7F77C148D529800CC76C4 /* piping_plover3_full.png in Resources */,
+				A6E7F77D148D529800CC76C4 /* piping_plover4_full.png in Resources */,
+				A6E7F77E148D529800CC76C4 /* piping_plover5_full.png in Resources */,
+				A6E7F77F148D529800CC76C4 /* red-cockaded_woodpecker_00.png in Resources */,
+				A6E7F780148D529800CC76C4 /* red-cockaded_woodpecker_01.png in Resources */,
+				A6E7F781148D529800CC76C4 /* red-cockaded_woodpecker_02.png in Resources */,
+				A6E7F782148D529800CC76C4 /* red-cockaded_woodpecker_03.png in Resources */,
+				A6E7F783148D529800CC76C4 /* reddish_egret_00.png in Resources */,
+				A6E7F784148D529800CC76C4 /* reddish_egret_01.png in Resources */,
+				A6E7F785148D529800CC76C4 /* reddish_egret_02.png in Resources */,
+				A6E7F786148D529800CC76C4 /* reddish_egret_03.png in Resources */,
+				A6E7F787148D529800CC76C4 /* rose_throated_becard1_full.png in Resources */,
+				A6E7F788148D529800CC76C4 /* rose_throated_becard2_full.png in Resources */,
+				A6E7F789148D529800CC76C4 /* rose_throated_becard3_full.png in Resources */,
+				A6E7F78A148D529800CC76C4 /* rose_throated_becard4_full.png in Resources */,
+				A6E7F78B148D529800CC76C4 /* roseate_spoonbill1_full.png in Resources */,
+				A6E7F78C148D529800CC76C4 /* roseate_spoonbill2_full.png in Resources */,
+				A6E7F78D148D529800CC76C4 /* roseate_spoonbill3_full.png in Resources */,
+				A6E7F78E148D529800CC76C4 /* roseate_spoonbill4_full.png in Resources */,
+				A6E7F78F148D529800CC76C4 /* swallow_tailed_kite_00.png in Resources */,
+				A6E7F790148D529800CC76C4 /* swallow_tailed_kite_01.png in Resources */,
+				A6E7F791148D529800CC76C4 /* swallow_tailed_kite_02.png in Resources */,
+				A6E7F792148D529800CC76C4 /* swallow_tailed_kite_03.png in Resources */,
+				A6E7F793148D529800CC76C4 /* white_faced_hawk_00.png in Resources */,
+				A6E7F794148D529800CC76C4 /* white_faced_hawk_01.png in Resources */,
+				A6E7F795148D529800CC76C4 /* white_faced_hawk_02.png in Resources */,
+				A6E7F796148D529800CC76C4 /* white_faced_hawk_03.png in Resources */,
+				A6E7F797148D529800CC76C4 /* white_faced_ibis_00.png in Resources */,
+				A6E7F798148D529800CC76C4 /* white_faced_ibis_01.png in Resources */,
+				A6E7F799148D529800CC76C4 /* white_faced_ibis_02.png in Resources */,
+				A6E7F79A148D529800CC76C4 /* white_faced_ibis_03.png in Resources */,
+				A6E7F79B148D529800CC76C4 /* whooping_crane1_full.png in Resources */,
+				A6E7F79C148D529800CC76C4 /* whooping_crane2_full.png in Resources */,
+				A6E7F79D148D529800CC76C4 /* whooping_crane3_full.png in Resources */,
+				A6E7F79E148D529800CC76C4 /* whooping_crane4_full.png in Resources */,
+				A62A689F148D941900C22C67 /* american_vulture2_full.png in Resources */,
+				F5E262B6148DDDDA0025F032 /* no audio in Resources */,
+				F5E262F0148E95010025F032 /* australian_pelican.png in Resources */,
+				F5E262F1148E95010025F032 /* black_kite.png in Resources */,
+				F5E262F2148E95010025F032 /* black_swan.png in Resources */,
+				F5E262F3148E95010025F032 /* crowned_eagle.png in Resources */,
+				F5E262F4148E95010025F032 /* egyptian_vulture.png in Resources */,
+				F5E262F5148E95010025F032 /* flightless_cormorant.png in Resources */,
+				F5E262F6148E95010025F032 /* king_vulture.png in Resources */,
+				F5E262F7148E95010025F032 /* lesser_flamingo.png in Resources */,
+				F5E262F8148E95010025F032 /* magpie_goose.png in Resources */,
+				F5E262F9148E95010025F032 /* northern_shoveler.png in Resources */,
+				A659C1F4148F065A00ED3896 /* backbutton_active.png in Resources */,
+				A659C1F5148F065A00ED3896 /* backbutton.png in Resources */,
+				A659C1F9148F131700ED3896 /* new_gallery_topbar.png in Resources */,
+				A659C204148F147D00ED3896 /* tb_birdbook_button_active.png in Resources */,
+				A659C205148F147D00ED3896 /* tb_birdbook_button.png in Resources */,
+				A659C206148F147D00ED3896 /* tb_camera_button_active.png in Resources */,
+				A659C207148F147D00ED3896 /* tb_camera_button.png in Resources */,
+				A659C208148F147D00ED3896 /* tb_gallery_button_active.png in Resources */,
+				A659C209148F147D00ED3896 /* tb_gallery_button.png in Resources */,
+				A659C20A148F147D00ED3896 /* tb_home_button_active.png in Resources */,
+				A659C20B148F147D00ED3896 /* tb_home_button.png in Resources */,
+				A659C20C148F147D00ED3896 /* tb_search_button_active.png in Resources */,
+				A659C20D148F147D00ED3896 /* tb_search_button.png in Resources */,
+				A659C210148F174300ED3896 /* camera_button_active.png in Resources */,
+				A659C211148F174300ED3896 /* camera_button.png in Resources */,
+				A6AB2BF3148F4A3600667652 /* MyView.xib in Resources */,
+				F54455E6149026D3008F3F18 /* active_home_birdbook_button.png in Resources */,
+				F54455E7149026D3008F3F18 /* active_home_gallery_button.png in Resources */,
+				F54455E8149026D3008F3F18 /* active_home_hotspots_button.png in Resources */,
+				F54455EA149026D3008F3F18 /* home_gallery_button.png in Resources */,
+				F54455EB149026D3008F3F18 /* home_hotspots_button.png in Resources */,
+				F54455EC149026D3008F3F18 /* new_home_page.png in Resources */,
+				F54455EE1490291D008F3F18 /* home_birdbook_button.png in Resources */,
+				F54455F114902A7B008F3F18 /* done_button_active.png in Resources */,
+				F54455F214902A7B008F3F18 /* done_button.png in Resources */,
+				F54455F514903016008F3F18 /* backbutton_active.png in Resources */,
+				F54455F614903016008F3F18 /* backbutton.png in Resources */,
+				F54455F814903199008F3F18 /* birdProfileBanner.png in Resources */,
+				A6F6678514906F91000578E3 /* BirdProfileViewController.xib in Resources */,
+				A6F6678814906FDE000578E3 /* pause.png in Resources */,
+				A6F6678914906FDE000578E3 /* play.png in Resources */,
+				A6F6678C149071B9000578E3 /* camera_Roll_active.png in Resources */,
+				A6F6678D149071B9000578E3 /* camera_roll.png in Resources */,
+				A6F6678F1490749B000578E3 /* birdbookbanner_back.png in Resources */,
+				A6F667991490771D000578E3 /* Bird_SpotterDB.sqlite in Resources */,
+				A6F667BF14909D02000578E3 /* American_Black_Vulture.mp3 in Resources */,
+				A6F667C014909D02000578E3 /* Aplomado_Falcon.mp3 in Resources */,
+				A6F667C114909D02000578E3 /* Bald_Eagle.mp3 in Resources */,
+				A6F667C214909D02000578E3 /* Black-capped_Vireo.mp3 in Resources */,
+				A6F667C314909D02000578E3 /* Brown_Pelican.mp3 in Resources */,
+				A6F667C414909D02000578E3 /* Golden-cheeked_Warbler.mp3 in Resources */,
+				A6F667C514909D02000578E3 /* Great_Blue_Heron.mp3 in Resources */,
+				A6F667C614909D02000578E3 /* Interior_Least_Tern.mp3 in Resources */,
+				A6F667C714909D02000578E3 /* Little_Blue_Heron.mp3 in Resources */,
+				A6F667C814909D02000578E3 /* Mexican_Spotted_Owl.mp3 in Resources */,
+				A6F667C914909D02000578E3 /* Northern_Shoveler.mp3 in Resources */,
+				A6F667CA14909D02000578E3 /* Piping_Plover.mp3 in Resources */,
+				A6F667CB14909D02000578E3 /* Red-cockaded_Woodpecker.mp3 in Resources */,
+				A6F667CC14909D02000578E3 /* Reddish_Egret.mp3 in Resources */,
+				A6F667CD14909D02000578E3 /* Roseate_Spoonbill.mp3 in Resources */,
+				A6F667CE14909D02000578E3 /* Swallow_Tailed_Kite.mp3 in Resources */,
+				A6F667CF14909D02000578E3 /* White_Faced_Ibis.mp3 in Resources */,
+				A6F667D014909D02000578E3 /* White-tailed_Hawk.mp3 in Resources */,
+				A6F667D114909D02000578E3 /* Whopping_Crane.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53127AB14459DFB00FAD875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53127C214459DFB00FAD875 /* main.m in Sources */,
+				F53127C614459DFB00FAD875 /* BirdSpotterAppDelegate.m in Sources */,
+				F53127E31445A66E00FAD875 /* AlphaMask.m in Sources */,
+				F53127E41445A66E00FAD875 /* ClickThruButton.m in Sources */,
+				F53127F11445A9BD00FAD875 /* MenuViewController.m in Sources */,
+				F53128221445F2B900FAD875 /* BirdBookTableViewController.m in Sources */,
+				F531282D1445F54900FAD875 /* BirdProfileModel.m in Sources */,
+				F53128301445F60800FAD875 /* Bird.m in Sources */,
+				AF67F3291446336C00CE57B4 /* BirdBookCellViewController.m in Sources */,
+				F5A52B65144DE967009EC088 /* UserPreferences.m in Sources */,
+				F58B76AE144F96C6005C5D3C /* HotspotMapViewController.m in Sources */,
+				F58B76D7144FE015005C5D3C /* Location.m in Sources */,
+				F56FF10114504734005878AC /* GeoLocationHelperModel.m in Sources */,
+				F56FF105145048BB005878AC /* HotSpot.m in Sources */,
+				F565FA3F1458E3AF00C5231C /* SectionHeaderView.m in Sources */,
+				F565FA421458E5E900C5231C /* SectionInfo.m in Sources */,
+				A6811BC11465CEC500777017 /* MultipleViewController.m in Sources */,
+				A681B060146750B50074EF41 /* PhotoGallery.m in Sources */,
+				A6199A9D1482DD3700CAB750 /* CameraViewController.m in Sources */,
+				A66FEF0F1484BAA300F7FA30 /* ViewControllerForDuplicateEndCaps.m in Sources */,
+				F51EE0091487277000364DF6 /* Selecter.m in Sources */,
+				A6ECA879148D48F70009F8D6 /* BirdGalleryModel.m in Sources */,
+				A6AB2BF2148F4A3600667652 /* MyView.m in Sources */,
+				A6F6678414906F91000578E3 /* BirdProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F53127BE14459DFB00FAD875 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53127BF14459DFB00FAD875 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F53127C714459DFB00FAD875 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53127C814459DFB00FAD875 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F53127CD14459DFB00FAD875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F53127CE14459DFB00FAD875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53127D014459DFB00FAD875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirdSpotter/BirdSpotter-Prefix.pch";
+				INFOPLIST_FILE = "BirdSpotter/BirdSpotter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F53127D114459DFB00FAD875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirdSpotter/BirdSpotter-Prefix.pch";
+				INFOPLIST_FILE = "BirdSpotter/BirdSpotter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F53127A914459DFA00FAD875 /* Build configuration list for PBXProject "BirdSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53127CD14459DFB00FAD875 /* Debug */,
+				F53127CE14459DFB00FAD875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53127CF14459DFB00FAD875 /* Build configuration list for PBXNativeTarget "BirdSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53127D014459DFB00FAD875 /* Debug */,
+				F53127D114459DFB00FAD875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F53127A614459DFA00FAD875 /* Project object */;
+}
